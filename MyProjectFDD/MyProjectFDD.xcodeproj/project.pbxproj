@@ -10,11 +10,45 @@
 		043A1C8E1AF78E7500E415BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1C8D1AF78E7500E415BF /* main.m */; };
 		043A1C911AF78E7500E415BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1C901AF78E7500E415BF /* AppDelegate.m */; };
 		043A1C941AF78E7500E415BF /* MyProjectFDD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 043A1C921AF78E7500E415BF /* MyProjectFDD.xcdatamodeld */; };
-		043A1C971AF78E7500E415BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1C961AF78E7500E415BF /* ViewController.m */; };
-		043A1C9A1AF78E7500E415BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043A1C981AF78E7500E415BF /* Main.storyboard */; };
 		043A1C9C1AF78E7500E415BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043A1C9B1AF78E7500E415BF /* Images.xcassets */; };
 		043A1C9F1AF78E7500E415BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043A1C9D1AF78E7500E415BF /* LaunchScreen.xib */; };
 		043A1CAB1AF78E7500E415BF /* MyProjectFDDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1CAA1AF78E7500E415BF /* MyProjectFDDTests.m */; };
+		043A1CC51AF794FE00E415BF /* SLAppSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1CC41AF794FE00E415BF /* SLAppSupport.m */; };
+		043A1CC91AF796EB00E415BF /* SLSellHouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1CC71AF796EB00E415BF /* SLSellHouseViewController.m */; };
+		043A1CCA1AF796EB00E415BF /* SLSellHouseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CC81AF796EB00E415BF /* SLSellHouseViewController.xib */; };
+		043A1CCE1AF7970400E415BF /* SLBuyHouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1CCC1AF7970400E415BF /* SLBuyHouseViewController.m */; };
+		043A1CCF1AF7970400E415BF /* SLBuyHouseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CCD1AF7970400E415BF /* SLBuyHouseViewController.xib */; };
+		043A1CD31AF7971400E415BF /* SLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1CD11AF7971400E415BF /* SLMeViewController.m */; };
+		043A1CD41AF7971400E415BF /* SLMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CD21AF7971400E415BF /* SLMeViewController.xib */; };
+		043A1CD81AF7972200E415BF /* SLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1CD61AF7972200E415BF /* SLSettingViewController.m */; };
+		043A1CD91AF7972200E415BF /* SLSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CD71AF7972200E415BF /* SLSettingViewController.xib */; };
+		043A1CF51AF7995000E415BF /* daohang_buy01.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CDD1AF7995000E415BF /* daohang_buy01.png */; };
+		043A1CF61AF7995000E415BF /* daohang_buy01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CDE1AF7995000E415BF /* daohang_buy01@2x.png */; };
+		043A1CF71AF7995000E415BF /* daohang_buy01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CDF1AF7995000E415BF /* daohang_buy01@3x.png */; };
+		043A1CF81AF7995000E415BF /* daohang_buy02.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CE01AF7995000E415BF /* daohang_buy02.png */; };
+		043A1CF91AF7995000E415BF /* daohang_buy02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CE11AF7995000E415BF /* daohang_buy02@2x.png */; };
+		043A1CFA1AF7995000E415BF /* daohang_buy02@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CE21AF7995000E415BF /* daohang_buy02@3x.png */; };
+		043A1CFB1AF7995000E415BF /* daohang_gengduo01.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CE31AF7995000E415BF /* daohang_gengduo01.png */; };
+		043A1CFC1AF7995000E415BF /* daohang_gengduo01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CE41AF7995000E415BF /* daohang_gengduo01@2x.png */; };
+		043A1CFD1AF7995000E415BF /* daohang_gengduo01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CE51AF7995000E415BF /* daohang_gengduo01@3x.png */; };
+		043A1CFE1AF7995000E415BF /* daohang_gengduo02.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CE61AF7995000E415BF /* daohang_gengduo02.png */; };
+		043A1CFF1AF7995000E415BF /* daohang_gengduo02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CE71AF7995000E415BF /* daohang_gengduo02@2x.png */; };
+		043A1D001AF7995000E415BF /* daohang_gengduo02@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CE81AF7995000E415BF /* daohang_gengduo02@3x.png */; };
+		043A1D011AF7995000E415BF /* daohang_sell01.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CE91AF7995000E415BF /* daohang_sell01.png */; };
+		043A1D021AF7995000E415BF /* daohang_sell01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CEA1AF7995000E415BF /* daohang_sell01@2x.png */; };
+		043A1D031AF7995000E415BF /* daohang_sell01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CEB1AF7995000E415BF /* daohang_sell01@3x.png */; };
+		043A1D041AF7995000E415BF /* daohang_sell02.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CEC1AF7995000E415BF /* daohang_sell02.png */; };
+		043A1D051AF7995000E415BF /* daohang_sell02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CED1AF7995000E415BF /* daohang_sell02@2x.png */; };
+		043A1D061AF7995000E415BF /* daohang_sell02@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CEE1AF7995000E415BF /* daohang_sell02@3x.png */; };
+		043A1D071AF7995000E415BF /* daohang_wo01.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CEF1AF7995000E415BF /* daohang_wo01.png */; };
+		043A1D081AF7995000E415BF /* daohang_wo01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CF01AF7995000E415BF /* daohang_wo01@2x.png */; };
+		043A1D091AF7995000E415BF /* daohang_wo01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CF11AF7995000E415BF /* daohang_wo01@3x.png */; };
+		043A1D0A1AF7995000E415BF /* daohang_wo02.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CF21AF7995000E415BF /* daohang_wo02.png */; };
+		043A1D0B1AF7995000E415BF /* daohang_wo02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CF31AF7995000E415BF /* daohang_wo02@2x.png */; };
+		043A1D0C1AF7995000E415BF /* daohang_wo02@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CF41AF7995000E415BF /* daohang_wo02@3x.png */; };
+		043A1D0F1AF79B4F00E415BF /* SLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1D0E1AF79B4F00E415BF /* SLNavigationController.m */; };
+		043A1D121AF79EA900E415BF /* SLTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1D111AF79EA900E415BF /* SLTabBarViewController.m */; };
+		043A1D161AF7A1DF00E415BF /* SLTabBarItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1D151AF7A1DF00E415BF /* SLTabBarItemButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +68,56 @@
 		043A1C8F1AF78E7500E415BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		043A1C901AF78E7500E415BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		043A1C931AF78E7500E415BF /* MyProjectFDD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyProjectFDD.xcdatamodel; sourceTree = "<group>"; };
-		043A1C951AF78E7500E415BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		043A1C961AF78E7500E415BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		043A1C991AF78E7500E415BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		043A1C9B1AF78E7500E415BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		043A1C9E1AF78E7500E415BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		043A1CA41AF78E7500E415BF /* MyProjectFDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyProjectFDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043A1CA91AF78E7500E415BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043A1CAA1AF78E7500E415BF /* MyProjectFDDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyProjectFDDTests.m; sourceTree = "<group>"; };
+		043A1CC31AF794FE00E415BF /* SLAppSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAppSupport.h; sourceTree = "<group>"; };
+		043A1CC41AF794FE00E415BF /* SLAppSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAppSupport.m; sourceTree = "<group>"; };
+		043A1CC61AF796EB00E415BF /* SLSellHouseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLSellHouseViewController.h; path = MyProjectFDD/SellHouse/SLSellHouseViewController.h; sourceTree = SOURCE_ROOT; };
+		043A1CC71AF796EB00E415BF /* SLSellHouseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLSellHouseViewController.m; path = MyProjectFDD/SellHouse/SLSellHouseViewController.m; sourceTree = SOURCE_ROOT; };
+		043A1CC81AF796EB00E415BF /* SLSellHouseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SLSellHouseViewController.xib; path = MyProjectFDD/SellHouse/SLSellHouseViewController.xib; sourceTree = SOURCE_ROOT; };
+		043A1CCB1AF7970400E415BF /* SLBuyHouseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLBuyHouseViewController.h; path = MyProjectFDD/BuyHouse/SLBuyHouseViewController.h; sourceTree = SOURCE_ROOT; };
+		043A1CCC1AF7970400E415BF /* SLBuyHouseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLBuyHouseViewController.m; path = MyProjectFDD/BuyHouse/SLBuyHouseViewController.m; sourceTree = SOURCE_ROOT; };
+		043A1CCD1AF7970400E415BF /* SLBuyHouseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SLBuyHouseViewController.xib; path = MyProjectFDD/BuyHouse/SLBuyHouseViewController.xib; sourceTree = SOURCE_ROOT; };
+		043A1CD01AF7971400E415BF /* SLMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMeViewController.h; sourceTree = "<group>"; };
+		043A1CD11AF7971400E415BF /* SLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMeViewController.m; sourceTree = "<group>"; };
+		043A1CD21AF7971400E415BF /* SLMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMeViewController.xib; sourceTree = "<group>"; };
+		043A1CD51AF7972200E415BF /* SLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSettingViewController.h; sourceTree = "<group>"; };
+		043A1CD61AF7972200E415BF /* SLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSettingViewController.m; sourceTree = "<group>"; };
+		043A1CD71AF7972200E415BF /* SLSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLSettingViewController.xib; sourceTree = "<group>"; };
+		043A1CDD1AF7995000E415BF /* daohang_buy01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daohang_buy01.png; sourceTree = "<group>"; };
+		043A1CDE1AF7995000E415BF /* daohang_buy01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_buy01@2x.png"; sourceTree = "<group>"; };
+		043A1CDF1AF7995000E415BF /* daohang_buy01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_buy01@3x.png"; sourceTree = "<group>"; };
+		043A1CE01AF7995000E415BF /* daohang_buy02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daohang_buy02.png; sourceTree = "<group>"; };
+		043A1CE11AF7995000E415BF /* daohang_buy02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_buy02@2x.png"; sourceTree = "<group>"; };
+		043A1CE21AF7995000E415BF /* daohang_buy02@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_buy02@3x.png"; sourceTree = "<group>"; };
+		043A1CE31AF7995000E415BF /* daohang_gengduo01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daohang_gengduo01.png; sourceTree = "<group>"; };
+		043A1CE41AF7995000E415BF /* daohang_gengduo01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_gengduo01@2x.png"; sourceTree = "<group>"; };
+		043A1CE51AF7995000E415BF /* daohang_gengduo01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_gengduo01@3x.png"; sourceTree = "<group>"; };
+		043A1CE61AF7995000E415BF /* daohang_gengduo02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daohang_gengduo02.png; sourceTree = "<group>"; };
+		043A1CE71AF7995000E415BF /* daohang_gengduo02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_gengduo02@2x.png"; sourceTree = "<group>"; };
+		043A1CE81AF7995000E415BF /* daohang_gengduo02@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_gengduo02@3x.png"; sourceTree = "<group>"; };
+		043A1CE91AF7995000E415BF /* daohang_sell01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daohang_sell01.png; sourceTree = "<group>"; };
+		043A1CEA1AF7995000E415BF /* daohang_sell01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_sell01@2x.png"; sourceTree = "<group>"; };
+		043A1CEB1AF7995000E415BF /* daohang_sell01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_sell01@3x.png"; sourceTree = "<group>"; };
+		043A1CEC1AF7995000E415BF /* daohang_sell02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daohang_sell02.png; sourceTree = "<group>"; };
+		043A1CED1AF7995000E415BF /* daohang_sell02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_sell02@2x.png"; sourceTree = "<group>"; };
+		043A1CEE1AF7995000E415BF /* daohang_sell02@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_sell02@3x.png"; sourceTree = "<group>"; };
+		043A1CEF1AF7995000E415BF /* daohang_wo01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daohang_wo01.png; sourceTree = "<group>"; };
+		043A1CF01AF7995000E415BF /* daohang_wo01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_wo01@2x.png"; sourceTree = "<group>"; };
+		043A1CF11AF7995000E415BF /* daohang_wo01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_wo01@3x.png"; sourceTree = "<group>"; };
+		043A1CF21AF7995000E415BF /* daohang_wo02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daohang_wo02.png; sourceTree = "<group>"; };
+		043A1CF31AF7995000E415BF /* daohang_wo02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_wo02@2x.png"; sourceTree = "<group>"; };
+		043A1CF41AF7995000E415BF /* daohang_wo02@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_wo02@3x.png"; sourceTree = "<group>"; };
+		043A1D0D1AF79B4F00E415BF /* SLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNavigationController.h; sourceTree = "<group>"; };
+		043A1D0E1AF79B4F00E415BF /* SLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLNavigationController.m; sourceTree = "<group>"; };
+		043A1D101AF79EA900E415BF /* SLTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTabBarViewController.h; sourceTree = "<group>"; };
+		043A1D111AF79EA900E415BF /* SLTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTabBarViewController.m; sourceTree = "<group>"; };
+		043A1D131AF7A04200E415BF /* SLGlobalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGlobalDefine.h; sourceTree = "<group>"; };
+		043A1D141AF7A1DF00E415BF /* SLTabBarItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTabBarItemButton.h; sourceTree = "<group>"; };
+		043A1D151AF7A1DF00E415BF /* SLTabBarItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTabBarItemButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +141,9 @@
 		043A1C7F1AF78E7400E415BF = {
 			isa = PBXGroup;
 			children = (
+				043A1CDB1AF798E600E415BF /* Resources */,
+				043A1CDA1AF798E600E415BF /* Libraries */,
+				043A1CB61AF7920E00E415BF /* Frameworks */,
 				043A1C8A1AF78E7500E415BF /* MyProjectFDD */,
 				043A1CA71AF78E7500E415BF /* MyProjectFDDTests */,
 				043A1C891AF78E7500E415BF /* Products */,
@@ -83,11 +162,16 @@
 		043A1C8A1AF78E7500E415BF /* MyProjectFDD */ = {
 			isa = PBXGroup;
 			children = (
+				043A1CC21AF7942B00E415BF /* Search */,
+				043A1CC11AF793FC00E415BF /* Login&Register */,
+				043A1CC01AF793DB00E415BF /* Setting */,
+				043A1CBF1AF793BE00E415BF /* Me */,
+				043A1CBE1AF7938200E415BF /* BuyHouse */,
+				043A1CBD1AF7935C00E415BF /* SellHouse */,
+				043A1CB81AF792E400E415BF /* Common */,
 				043A1C8F1AF78E7500E415BF /* AppDelegate.h */,
 				043A1C901AF78E7500E415BF /* AppDelegate.m */,
-				043A1C951AF78E7500E415BF /* ViewController.h */,
-				043A1C961AF78E7500E415BF /* ViewController.m */,
-				043A1C981AF78E7500E415BF /* Main.storyboard */,
+				043A1D131AF7A04200E415BF /* SLGlobalDefine.h */,
 				043A1C9B1AF78E7500E415BF /* Images.xcassets */,
 				043A1C9D1AF78E7500E415BF /* LaunchScreen.xib */,
 				043A1C921AF78E7500E415BF /* MyProjectFDD.xcdatamodeld */,
@@ -120,6 +204,166 @@
 				043A1CA91AF78E7500E415BF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043A1CB61AF7920E00E415BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			path = MyProjectFDD/Frameworks;
+			sourceTree = "<group>";
+		};
+		043A1CB81AF792E400E415BF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				043A1CBC1AF7933300E415BF /* Tools */,
+				043A1CBB1AF7931700E415BF /* CustomizedViews */,
+				043A1CBA1AF7930A00E415BF /* Data */,
+				043A1CB91AF792F500E415BF /* Manager */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		043A1CB91AF792F500E415BF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				043A1CC31AF794FE00E415BF /* SLAppSupport.h */,
+				043A1CC41AF794FE00E415BF /* SLAppSupport.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		043A1CBA1AF7930A00E415BF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		043A1CBB1AF7931700E415BF /* CustomizedViews */ = {
+			isa = PBXGroup;
+			children = (
+				043A1D141AF7A1DF00E415BF /* SLTabBarItemButton.h */,
+				043A1D151AF7A1DF00E415BF /* SLTabBarItemButton.m */,
+			);
+			path = CustomizedViews;
+			sourceTree = "<group>";
+		};
+		043A1CBC1AF7933300E415BF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				043A1D0D1AF79B4F00E415BF /* SLNavigationController.h */,
+				043A1D0E1AF79B4F00E415BF /* SLNavigationController.m */,
+				043A1D101AF79EA900E415BF /* SLTabBarViewController.h */,
+				043A1D111AF79EA900E415BF /* SLTabBarViewController.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		043A1CBD1AF7935C00E415BF /* SellHouse */ = {
+			isa = PBXGroup;
+			children = (
+				043A1CC61AF796EB00E415BF /* SLSellHouseViewController.h */,
+				043A1CC71AF796EB00E415BF /* SLSellHouseViewController.m */,
+				043A1CC81AF796EB00E415BF /* SLSellHouseViewController.xib */,
+			);
+			name = SellHouse;
+			path = SellHourse;
+			sourceTree = "<group>";
+		};
+		043A1CBE1AF7938200E415BF /* BuyHouse */ = {
+			isa = PBXGroup;
+			children = (
+				043A1CCB1AF7970400E415BF /* SLBuyHouseViewController.h */,
+				043A1CCC1AF7970400E415BF /* SLBuyHouseViewController.m */,
+				043A1CCD1AF7970400E415BF /* SLBuyHouseViewController.xib */,
+			);
+			name = BuyHouse;
+			path = SellHourse;
+			sourceTree = "<group>";
+		};
+		043A1CBF1AF793BE00E415BF /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				043A1CD01AF7971400E415BF /* SLMeViewController.h */,
+				043A1CD11AF7971400E415BF /* SLMeViewController.m */,
+				043A1CD21AF7971400E415BF /* SLMeViewController.xib */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		043A1CC01AF793DB00E415BF /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				043A1CD51AF7972200E415BF /* SLSettingViewController.h */,
+				043A1CD61AF7972200E415BF /* SLSettingViewController.m */,
+				043A1CD71AF7972200E415BF /* SLSettingViewController.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		043A1CC11AF793FC00E415BF /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		043A1CC21AF7942B00E415BF /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		043A1CDA1AF798E600E415BF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			path = MyProjectFDD/Frameworks/Libraries;
+			sourceTree = "<group>";
+		};
+		043A1CDB1AF798E600E415BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				043A1CDC1AF798FE00E415BF /* Tabbar */,
+			);
+			name = Resources;
+			path = MyProjectFDD/Frameworks/Resources;
+			sourceTree = "<group>";
+		};
+		043A1CDC1AF798FE00E415BF /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				043A1CDD1AF7995000E415BF /* daohang_buy01.png */,
+				043A1CDE1AF7995000E415BF /* daohang_buy01@2x.png */,
+				043A1CDF1AF7995000E415BF /* daohang_buy01@3x.png */,
+				043A1CE01AF7995000E415BF /* daohang_buy02.png */,
+				043A1CE11AF7995000E415BF /* daohang_buy02@2x.png */,
+				043A1CE21AF7995000E415BF /* daohang_buy02@3x.png */,
+				043A1CE31AF7995000E415BF /* daohang_gengduo01.png */,
+				043A1CE41AF7995000E415BF /* daohang_gengduo01@2x.png */,
+				043A1CE51AF7995000E415BF /* daohang_gengduo01@3x.png */,
+				043A1CE61AF7995000E415BF /* daohang_gengduo02.png */,
+				043A1CE71AF7995000E415BF /* daohang_gengduo02@2x.png */,
+				043A1CE81AF7995000E415BF /* daohang_gengduo02@3x.png */,
+				043A1CE91AF7995000E415BF /* daohang_sell01.png */,
+				043A1CEA1AF7995000E415BF /* daohang_sell01@2x.png */,
+				043A1CEB1AF7995000E415BF /* daohang_sell01@3x.png */,
+				043A1CEC1AF7995000E415BF /* daohang_sell02.png */,
+				043A1CED1AF7995000E415BF /* daohang_sell02@2x.png */,
+				043A1CEE1AF7995000E415BF /* daohang_sell02@3x.png */,
+				043A1CEF1AF7995000E415BF /* daohang_wo01.png */,
+				043A1CF01AF7995000E415BF /* daohang_wo01@2x.png */,
+				043A1CF11AF7995000E415BF /* daohang_wo01@3x.png */,
+				043A1CF21AF7995000E415BF /* daohang_wo02.png */,
+				043A1CF31AF7995000E415BF /* daohang_wo02@2x.png */,
+				043A1CF41AF7995000E415BF /* daohang_wo02@3x.png */,
+			);
+			name = Tabbar;
+			path = ../../../Resources/Tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +410,7 @@
 		043A1C801AF78E7400E415BF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SL;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = qianfeng;
 				TargetAttributes = {
@@ -202,9 +447,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043A1C9A1AF78E7500E415BF /* Main.storyboard in Resources */,
+				043A1CCA1AF796EB00E415BF /* SLSellHouseViewController.xib in Resources */,
+				043A1D091AF7995000E415BF /* daohang_wo01@3x.png in Resources */,
+				043A1CFD1AF7995000E415BF /* daohang_gengduo01@3x.png in Resources */,
+				043A1CCF1AF7970400E415BF /* SLBuyHouseViewController.xib in Resources */,
+				043A1CF81AF7995000E415BF /* daohang_buy02.png in Resources */,
+				043A1D021AF7995000E415BF /* daohang_sell01@2x.png in Resources */,
+				043A1D061AF7995000E415BF /* daohang_sell02@3x.png in Resources */,
+				043A1CF91AF7995000E415BF /* daohang_buy02@2x.png in Resources */,
+				043A1D0B1AF7995000E415BF /* daohang_wo02@2x.png in Resources */,
+				043A1CF61AF7995000E415BF /* daohang_buy01@2x.png in Resources */,
+				043A1D0A1AF7995000E415BF /* daohang_wo02.png in Resources */,
 				043A1C9F1AF78E7500E415BF /* LaunchScreen.xib in Resources */,
+				043A1CD91AF7972200E415BF /* SLSettingViewController.xib in Resources */,
+				043A1CFC1AF7995000E415BF /* daohang_gengduo01@2x.png in Resources */,
+				043A1D041AF7995000E415BF /* daohang_sell02.png in Resources */,
+				043A1D0C1AF7995000E415BF /* daohang_wo02@3x.png in Resources */,
 				043A1C9C1AF78E7500E415BF /* Images.xcassets in Resources */,
+				043A1D011AF7995000E415BF /* daohang_sell01.png in Resources */,
+				043A1D031AF7995000E415BF /* daohang_sell01@3x.png in Resources */,
+				043A1CFB1AF7995000E415BF /* daohang_gengduo01.png in Resources */,
+				043A1D001AF7995000E415BF /* daohang_gengduo02@3x.png in Resources */,
+				043A1CF51AF7995000E415BF /* daohang_buy01.png in Resources */,
+				043A1CFF1AF7995000E415BF /* daohang_gengduo02@2x.png in Resources */,
+				043A1CFA1AF7995000E415BF /* daohang_buy02@3x.png in Resources */,
+				043A1CF71AF7995000E415BF /* daohang_buy01@3x.png in Resources */,
+				043A1D051AF7995000E415BF /* daohang_sell02@2x.png in Resources */,
+				043A1D071AF7995000E415BF /* daohang_wo01.png in Resources */,
+				043A1D081AF7995000E415BF /* daohang_wo01@2x.png in Resources */,
+				043A1CFE1AF7995000E415BF /* daohang_gengduo02.png in Resources */,
+				043A1CD41AF7971400E415BF /* SLMeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +494,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043A1CC51AF794FE00E415BF /* SLAppSupport.m in Sources */,
+				043A1D121AF79EA900E415BF /* SLTabBarViewController.m in Sources */,
+				043A1CCE1AF7970400E415BF /* SLBuyHouseViewController.m in Sources */,
 				043A1C941AF78E7500E415BF /* MyProjectFDD.xcdatamodeld in Sources */,
 				043A1C911AF78E7500E415BF /* AppDelegate.m in Sources */,
-				043A1C971AF78E7500E415BF /* ViewController.m in Sources */,
+				043A1D161AF7A1DF00E415BF /* SLTabBarItemButton.m in Sources */,
+				043A1CC91AF796EB00E415BF /* SLSellHouseViewController.m in Sources */,
+				043A1D0F1AF79B4F00E415BF /* SLNavigationController.m in Sources */,
 				043A1C8E1AF78E7500E415BF /* main.m in Sources */,
+				043A1CD81AF7972200E415BF /* SLSettingViewController.m in Sources */,
+				043A1CD31AF7971400E415BF /* SLMeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +527,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		043A1C981AF78E7500E415BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				043A1C991AF78E7500E415BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		043A1C9D1AF78E7500E415BF /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
