@@ -27,7 +27,7 @@
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
+    NSLog(@"完成");
     return YES;
 }
 
