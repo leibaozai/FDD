@@ -15,6 +15,7 @@
 #import "SLNavigationController.h"
 #import "SLTabBarViewController.h"
 
+#import "SLUIFactory.h"
 
 @implementation SLAppSupport
 
@@ -78,7 +79,8 @@
         // 添加NavigationController
         SLNavigationController *nav = [[SLNavigationController alloc] initWithRootViewController:vc];
         
-        // 设置图片
+        nav.navigationBar.barTintColor = [UIColor whiteColor];
+        // 设置tabBar图片
         nav.tabBarItem.image = [UIImage imageNamed:imageNames[i]];
         nav.tabBarItem.selectedImage = [UIImage imageNamed:selectedImageNames[i]];
         nav.tabBarItem.title = tabbarItemTitles[i];

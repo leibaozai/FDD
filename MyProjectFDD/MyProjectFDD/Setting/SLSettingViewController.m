@@ -7,31 +7,52 @@
 //
 
 #import "SLSettingViewController.h"
+#import "SLUIFactory.h"
 
-@interface SLSettingViewController ()
 
+@interface SLSettingViewController ()<UITableViewDataSource,UITableViewDelegate>
+{
+    UITableView *_tableView;
+}
 @end
 
 @implementation SLSettingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+
+    self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
+    self.title = @"更多";
+    
+    self.navigationItem.leftBarButtonItem = [SLUIFactory createImageBBIWithImage:[UIImage imageNamed:@"nav_xiaoxi"] target:self action:nil];
+    
+    [self initTableView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - Helper Methods
+-(void)initTableView
+{
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, 240)];
+    _tableView.rowHeight = 80;
+    _tableView.dataSource = self;
+    _tableView.delegate = self;
+    
+    [self.view addSubview:_tableView];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark -
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 3;
 }
-*/
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    
+    
+    return cell;
+}
+
 
 @end
