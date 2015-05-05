@@ -16,12 +16,13 @@
 
 @implementation SLSellHouseViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
     self.title = @"卖房";
-    
+    NSLog(@"卖房");
     self.navigationItem.leftBarButtonItem = [SLUIFactory createImageBBIWithImage:[UIImage imageNamed:@"nav_xiaoxi"] target:self action:nil];
 }
 
