@@ -11,7 +11,6 @@
 
 
 @interface SLSellHouseViewController ()
-@property (strong, nonatomic) IBOutlet UIView *view1;
 
 @end
 
