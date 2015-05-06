@@ -7,6 +7,7 @@
 //
 
 #import "SLMeViewController.h"
+#import "SLUIFactory.h"
 
 @interface SLMeViewController ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+
+    self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
+    self.title = @"我";
+    
+    self.navigationItem.leftBarButtonItem = [SLUIFactory createImageBBIWithImage:[UIImage imageNamed:@"nav_xiaoxi"] target:self action:nil];
 }
 
 - (void)didReceiveMemoryWarning {

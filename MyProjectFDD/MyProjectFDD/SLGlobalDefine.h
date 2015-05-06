@@ -18,6 +18,8 @@
 /**
  主题颜色
  */
+#define THEME_COLOR ([UIColor colorWithRed:216/255.0f green:151/255.0f blue:0/255.0f alpha:1.0f])
+
 
 /**
  一些常用的工具类

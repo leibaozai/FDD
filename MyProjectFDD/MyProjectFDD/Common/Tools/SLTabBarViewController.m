@@ -24,6 +24,8 @@
 {
     [super viewWillAppear:animated];
     
+    //self.view.backgroundColor = [UIColor whiteColor];
+    self.tabBar.barTintColor = [UIColor whiteColor];
     //创建自定义tabbar
     [self createCustomizedTabbar];
 }
