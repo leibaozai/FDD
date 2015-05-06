@@ -36,6 +36,7 @@
 		04052DF41AF8821600AEE27A /* nav_xiaoxi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04052DD91AF8821600AEE27A /* nav_xiaoxi@2x.png */; };
 		04052DF51AF8821600AEE27A /* nav_xiaoxi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04052DDA1AF8821600AEE27A /* nav_xiaoxi@3x.png */; };
 		04052DF71AF8B06900AEE27A /* 0_bg01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04052DF61AF8B06900AEE27A /* 0_bg01@2x.png */; };
+		041813C71AF99C6F0014A032 /* SLSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041813C61AF99C6F0014A032 /* SLSettingViewController.xib */; };
 		043A1C8E1AF78E7500E415BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1C8D1AF78E7500E415BF /* main.m */; };
 		043A1C911AF78E7500E415BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1C901AF78E7500E415BF /* AppDelegate.m */; };
 		043A1C941AF78E7500E415BF /* MyProjectFDD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 043A1C921AF78E7500E415BF /* MyProjectFDD.xcdatamodeld */; };
@@ -50,7 +51,6 @@
 		043A1CD31AF7971400E415BF /* SLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1CD11AF7971400E415BF /* SLMeViewController.m */; };
 		043A1CD41AF7971400E415BF /* SLMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CD21AF7971400E415BF /* SLMeViewController.xib */; };
 		043A1CD81AF7972200E415BF /* SLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1CD61AF7972200E415BF /* SLSettingViewController.m */; };
-		043A1CD91AF7972200E415BF /* SLSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CD71AF7972200E415BF /* SLSettingViewController.xib */; };
 		043A1CF51AF7995000E415BF /* daohang_buy01.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CDD1AF7995000E415BF /* daohang_buy01.png */; };
 		043A1CF61AF7995000E415BF /* daohang_buy01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CDE1AF7995000E415BF /* daohang_buy01@2x.png */; };
 		043A1CF71AF7995000E415BF /* daohang_buy01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CDF1AF7995000E415BF /* daohang_buy01@3x.png */; };
@@ -152,6 +152,7 @@
 		04052DD91AF8821600AEE27A /* nav_xiaoxi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_xiaoxi@2x.png"; sourceTree = "<group>"; };
 		04052DDA1AF8821600AEE27A /* nav_xiaoxi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_xiaoxi@3x.png"; sourceTree = "<group>"; };
 		04052DF61AF8B06900AEE27A /* 0_bg01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0_bg01@2x.png"; sourceTree = "<group>"; };
+		041813C61AF99C6F0014A032 /* SLSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLSettingViewController.xib; sourceTree = "<group>"; };
 		043A1C881AF78E7500E415BF /* MyProjectFDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProjectFDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043A1C8C1AF78E7500E415BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043A1C8D1AF78E7500E415BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -176,7 +177,6 @@
 		043A1CD21AF7971400E415BF /* SLMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMeViewController.xib; sourceTree = "<group>"; };
 		043A1CD51AF7972200E415BF /* SLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSettingViewController.h; sourceTree = "<group>"; };
 		043A1CD61AF7972200E415BF /* SLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSettingViewController.m; sourceTree = "<group>"; };
-		043A1CD71AF7972200E415BF /* SLSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLSettingViewController.xib; sourceTree = "<group>"; };
 		043A1CDD1AF7995000E415BF /* daohang_buy01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daohang_buy01.png; sourceTree = "<group>"; };
 		043A1CDE1AF7995000E415BF /* daohang_buy01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_buy01@2x.png"; sourceTree = "<group>"; };
 		043A1CDF1AF7995000E415BF /* daohang_buy01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daohang_buy01@3x.png"; sourceTree = "<group>"; };
@@ -458,7 +458,7 @@
 			children = (
 				043A1CD51AF7972200E415BF /* SLSettingViewController.h */,
 				043A1CD61AF7972200E415BF /* SLSettingViewController.m */,
-				043A1CD71AF7972200E415BF /* SLSettingViewController.xib */,
+				041813C61AF99C6F0014A032 /* SLSettingViewController.xib */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -680,7 +680,6 @@
 				043A1C9F1AF78E7500E415BF /* LaunchScreen.xib in Resources */,
 				04052DF11AF8821600AEE27A /* nav_xiala@2x.png in Resources */,
 				0449F9F81AF8D79C00A5A2A2 /* publish_icon2_disable@3x.png in Resources */,
-				043A1CD91AF7972200E415BF /* SLSettingViewController.xib in Resources */,
 				043A1CFC1AF7995000E415BF /* daohang_gengduo01@2x.png in Resources */,
 				0449FA021AF8D79C00A5A2A2 /* publish_icon_managers.png in Resources */,
 				0449F9F71AF8D79C00A5A2A2 /* publish_icon2_disable@2x.png in Resources */,
@@ -688,6 +687,7 @@
 				043A1D041AF7995000E415BF /* daohang_sell02.png in Resources */,
 				043A1D0C1AF7995000E415BF /* daohang_wo02@3x.png in Resources */,
 				043A1C9C1AF78E7500E415BF /* Images.xcassets in Resources */,
+				041813C71AF99C6F0014A032 /* SLSettingViewController.xib in Resources */,
 				0449F9FC1AF8D79C00A5A2A2 /* publish_icon_camera.png in Resources */,
 				0449F9FE1AF8D79C00A5A2A2 /* publish_icon_camera@3x.png in Resources */,
 				0449F9F31AF8D79C00A5A2A2 /* publish_icon1_normal.png in Resources */,

@@ -26,7 +26,7 @@
     
     self.navigationItem.leftBarButtonItem = [SLUIFactory createImageBBIWithImage:[UIImage imageNamed:@"nav_xiaoxi"] target:self action:nil];
     
-    [self initTableView];
+   // [self initTableView];
 }
 
 #pragma mark - Helper Methods
@@ -40,7 +40,7 @@
     [self.view addSubview:_tableView];
 }
 
-#pragma mark -
+#pragma mark -UITableViewDataSource
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return 3;
@@ -49,7 +49,9 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cell"];
+    }
     
     return cell;
 }
