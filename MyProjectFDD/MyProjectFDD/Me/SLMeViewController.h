@@ -13,4 +13,5 @@
  */
 @interface SLMeViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 @end

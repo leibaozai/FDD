@@ -43,6 +43,8 @@
 #pragma mark - Helper Methods
 - (void)createCustomizedTabbar
 {
+    
+    //NSLog(@"%@", self.tabBar.subviews);
     if(!_notFirstLoad){
         _notFirstLoad = YES;
         
@@ -79,6 +81,15 @@
         }
     }
 }
+
+
+//- (void)viewWillDisappear:(BOOL)animated
+//{
+//    [super viewWillDisappear:animated];
+//    
+//    NSLog(@"%s", __PRETTY_FUNCTION__);
+//}
+
 
 #pragma mark - Event Handlers
 

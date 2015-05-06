@@ -8,8 +8,11 @@
 
 #import "SLMeViewController.h"
 #import "SLUIFactory.h"
+#import "SLMeTBHeader.h"
 
-@interface SLMeViewController ()
+
+@interface SLMeViewController ()<UITableViewDataSource,UITableViewDelegate>
+
 
 @end
 
@@ -17,26 +20,109 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
     self.title = @"我";
     
     self.navigationItem.leftBarButtonItem = [SLUIFactory createImageBBIWithImage:[UIImage imageNamed:@"nav_xiaoxi"] target:self action:nil];
+    
+    //自动调节视图
+    self.tableView.autoresizesSubviews = NO;
+    
+    //添加表头
+    SLMeTBHeader *headerVC = [[SLMeTBHeader alloc] initWithNibName:@"SLMeTBHeader" bundle:nil];
+    headerVC.view.frame = CGRectMake(0, 0, self.view.frame.size.width, 190);
+    self.tableView.tableHeaderView = headerVC.view;
+    
+    UILabel *l = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 10)];
+    l.backgroundColor = [UIColor lightGrayColor];
+    self.tableView.tableFooterView = l;
+    
+    //注册cell
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+#pragma mark -cell点击
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark -UITableViewDataSource
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+//分区
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 3;
 }
-*/
+
+//每个分区有多少行
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    if (section == 0) {
+        return 3;
+    }else if (section == 1){
+        return 3;
+    }else
+    {
+        return 1;
+    }
+}
+
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    
+    //右边箭头
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    
+    //赋值
+    UIImageView *ig = [[UIImageView alloc] initWithFrame:CGRectMake(20, 8, 25, 25)];
+    
+    UILabel *lable = [[UILabel alloc] initWithFrame:CGRectMake(50, 5, 200, 30)];
+    lable.font = [UIFont systemFontOfSize:15];
+    
+    NSArray *imageArr1 = @[@"wo_duoduohui",@"wo_qianbao",@"wo_soucang"];
+    NSArray *imageArr2 = @[@"wo_rili",@"wo_zushou",@"wo_jinzhi"];
+    
+    NSArray *strArr1 = @[@"多多惠",@"钱包",@"房源收藏"];
+    NSArray *strArr2 = @[@"经纪人看房日历",@"驻守经纪人管理",@"屏蔽过的经纪人"];
+    
+    if (indexPath.section == 0) {
+        
+        ig.image = [UIImage imageNamed:imageArr1[indexPath.row]];
+        lable.text = strArr1[indexPath.row];
+
+    }else if (indexPath.section == 1){
+        
+        ig.image = [UIImage imageNamed:imageArr2[indexPath.row]];
+        lable.text = strArr2[indexPath.row];
+    }
+    else{
+        
+        ig.image = [UIImage imageNamed:@"wo_shezhi"];
+        lable.text = @"设置";
+    }
+    
+    [cell.contentView addSubview:ig];
+    [cell.contentView addSubview:lable];
+    return cell;
+}
+
+//段头（页眉）视图高度，某个20
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 10;
+}
+
+//分区头部
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UILabel *l = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 10)];
+    l.backgroundColor = [UIColor lightGrayColor];
+    return l;
+}
 
 @end
