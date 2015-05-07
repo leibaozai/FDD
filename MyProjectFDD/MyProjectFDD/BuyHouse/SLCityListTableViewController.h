@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ “买房”--城市列表
+ */
 @interface SLCityListTableViewController : UITableViewController
 
 @end

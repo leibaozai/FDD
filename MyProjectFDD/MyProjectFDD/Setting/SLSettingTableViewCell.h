@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "SLSettingCellModel.h"
 
+/**
+ "设置"页面-cell
+ */
 @interface SLSettingTableViewCell : UITableViewCell
 
 @property (strong, nonatomic) IBOutlet UIImageView *iconImage;

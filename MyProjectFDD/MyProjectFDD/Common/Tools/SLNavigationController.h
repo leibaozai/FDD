@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ 自定义的navgationController
+ */
 @interface SLNavigationController : UINavigationController
 
 @end

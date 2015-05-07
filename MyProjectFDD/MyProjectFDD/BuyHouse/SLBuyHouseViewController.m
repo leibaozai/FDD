@@ -46,7 +46,7 @@
     [self initLeftAndRightNavgationBar];
     
     //加载地图
-    [self detailMap];
+    //[self detailMap];
 }
 
 #pragma mark - Helper Methods
@@ -165,16 +165,23 @@
    
     if ([sender.titleLabel.text isEqualToString:@"只看新房"]) {
         
-        dispatch_async(dispatch_get_main_queue(), ^{
-            self.describeLable.text = @"全城共232套新房";
-            sender.titleLabel.text = @"全部房源";
-        });
+        [sender setTitle:@"全部房源" forState:UIControlStateNormal];
+        self.describeLable.text = @"全城共232套新房";
+        
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//            sender.titleLabel.text = @"全部房源";
+//            self.describeLable.text = @"全城共232套新房";
+//        });
 
     }else {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            sender.titleLabel.text = @"只看新房";
-            self.describeLable.text = @"全城共29117套二手房,232套新房";
-        });
+        [sender setTitle:@"只看新房" forState:UIControlStateNormal];
+        self.describeLable.text = @"全城共29117套二手房,232套新房";
+        
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//            sender.titleLabel.text = @"只看新房";
+//            self.describeLable.text = @"全城共29117套二手房,232套新房";
+//            
+//        });
     }
 }
 
@@ -210,9 +217,8 @@
     [self.navigationController pushViewController:cityVC animated:YES];
 }
 
-
-
 #pragma mark -UITableViewDataSource
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return 10;

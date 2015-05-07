@@ -50,6 +50,7 @@
 {
     _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, 360)];
     _tableView.rowHeight = 120;
+    
     _tableView.dataSource = self;
     _tableView.delegate = self;
     //NSLog(@"self.view.frame.size.width:%f",self.view.frame.size.width);
@@ -79,6 +80,8 @@
 }
 
 #pragma mark - Event Handlers UITableViewDelegate
+
+//cell点击
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     SLFindManageViewController *findVC = [[SLFindManageViewController alloc] init];

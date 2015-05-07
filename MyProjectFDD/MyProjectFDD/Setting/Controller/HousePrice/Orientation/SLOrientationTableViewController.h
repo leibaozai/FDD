@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 /**
- 朝向
+ 查房价-朝向
  */
 @interface SLOrientationTableViewController : UITableViewController
 

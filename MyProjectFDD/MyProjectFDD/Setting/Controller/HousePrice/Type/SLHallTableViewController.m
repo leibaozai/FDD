@@ -24,8 +24,8 @@
     
     _dataSource = [NSMutableArray array];
     
-    for (NSInteger i = 0; i < 7; i++) {
-        NSString *str = [NSString stringWithFormat:@"%ld厅",i];
+    for (int i = 0; i < 7; i++) {
+        NSString *str = [NSString stringWithFormat:@"%d厅",i];
         [_dataSource addObject:str];
     }
 }

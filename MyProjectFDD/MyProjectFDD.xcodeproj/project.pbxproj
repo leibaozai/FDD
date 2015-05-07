@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0403CE061AFAF1D300A66381 /* SLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403CE041AFAF1D300A66381 /* SLLoginViewController.m */; };
+		0403CE071AFAF1D300A66381 /* SLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0403CE051AFAF1D300A66381 /* SLLoginViewController.xib */; };
 		04052DBE1AF8810700AEE27A /* SLUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04052DBD1AF8810700AEE27A /* SLUIFactory.m */; };
 		04052DDB1AF8821600AEE27A /* nav_caidan.png in Resources */ = {isa = PBXBuildFile; fileRef = 04052DC01AF8821600AEE27A /* nav_caidan.png */; };
 		04052DDC1AF8821600AEE27A /* nav_caidan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04052DC11AF8821600AEE27A /* nav_caidan@2x.png */; };
@@ -192,6 +194,8 @@
 		0449FA0B1AF8D79C00A5A2A2 /* publish_pic_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0449F9ED1AF8D79C00A5A2A2 /* publish_pic_normal.png */; };
 		0449FA0C1AF8D79C00A5A2A2 /* publish_pic_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0449F9EE1AF8D79C00A5A2A2 /* publish_pic_normal@2x.png */; };
 		0449FA0D1AF8D79C00A5A2A2 /* publish_pic_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0449F9EF1AF8D79C00A5A2A2 /* publish_pic_normal@3x.png */; };
+		049939441AFB8D7900015AE9 /* SLStartSellVillageNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049939421AFB8D7900015AE9 /* SLStartSellVillageNameView.m */; };
+		049939451AFB8D7900015AE9 /* SLStartSellVillageNameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049939431AFB8D7900015AE9 /* SLStartSellVillageNameView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,6 +209,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0403CE031AFAF1D300A66381 /* SLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLLoginViewController.h; sourceTree = "<group>"; };
+		0403CE041AFAF1D300A66381 /* SLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLLoginViewController.m; sourceTree = "<group>"; };
+		0403CE051AFAF1D300A66381 /* SLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLLoginViewController.xib; sourceTree = "<group>"; };
 		04052DBC1AF8810700AEE27A /* SLUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLUIFactory.h; sourceTree = "<group>"; };
 		04052DBD1AF8810700AEE27A /* SLUIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLUIFactory.m; sourceTree = "<group>"; };
 		04052DC01AF8821600AEE27A /* nav_caidan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_caidan.png; sourceTree = "<group>"; };
@@ -418,6 +425,9 @@
 		0449F9ED1AF8D79C00A5A2A2 /* publish_pic_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = publish_pic_normal.png; sourceTree = "<group>"; };
 		0449F9EE1AF8D79C00A5A2A2 /* publish_pic_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "publish_pic_normal@2x.png"; sourceTree = "<group>"; };
 		0449F9EF1AF8D79C00A5A2A2 /* publish_pic_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "publish_pic_normal@3x.png"; sourceTree = "<group>"; };
+		049939411AFB8D7900015AE9 /* SLStartSellVillageNameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLStartSellVillageNameView.h; path = MyProjectFDD/SellHouse/SLStartSellVillageNameView.h; sourceTree = SOURCE_ROOT; };
+		049939421AFB8D7900015AE9 /* SLStartSellVillageNameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLStartSellVillageNameView.m; path = MyProjectFDD/SellHouse/SLStartSellVillageNameView.m; sourceTree = SOURCE_ROOT; };
+		049939431AFB8D7900015AE9 /* SLStartSellVillageNameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SLStartSellVillageNameView.xib; path = MyProjectFDD/SellHouse/SLStartSellVillageNameView.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -789,6 +799,9 @@
 				041813F41AF9E4470014A032 /* SLStartSellHouseViewController.h */,
 				041813F51AF9E4470014A032 /* SLStartSellHouseViewController.m */,
 				041813F61AF9E4470014A032 /* SLStartSellHouseViewController.xib */,
+				049939411AFB8D7900015AE9 /* SLStartSellVillageNameView.h */,
+				049939421AFB8D7900015AE9 /* SLStartSellVillageNameView.m */,
+				049939431AFB8D7900015AE9 /* SLStartSellVillageNameView.xib */,
 			);
 			name = SellHouse;
 			path = SellHourse;
@@ -833,6 +846,9 @@
 		043A1CC11AF793FC00E415BF /* Login&Register */ = {
 			isa = PBXGroup;
 			children = (
+				0403CE031AFAF1D300A66381 /* SLLoginViewController.h */,
+				0403CE041AFAF1D300A66381 /* SLLoginViewController.m */,
+				0403CE051AFAF1D300A66381 /* SLLoginViewController.xib */,
 			);
 			path = "Login&Register";
 			sourceTree = "<group>";
@@ -1081,6 +1097,7 @@
 				041813E01AF9BE350014A032 /* home_more_button1@2x.png in Resources */,
 				04052DF11AF8821600AEE27A /* nav_xiala@2x.png in Resources */,
 				0449F9F81AF8D79C00A5A2A2 /* publish_icon2_disable@3x.png in Resources */,
+				0403CE071AFAF1D300A66381 /* SLLoginViewController.xib in Resources */,
 				043A1CFC1AF7995000E415BF /* daohang_gengduo01@2x.png in Resources */,
 				0449FA021AF8D79C00A5A2A2 /* publish_icon_managers.png in Resources */,
 				0449F9F71AF8D79C00A5A2A2 /* publish_icon2_disable@2x.png in Resources */,
@@ -1164,6 +1181,7 @@
 				041814101AF9EC9E0014A032 /* anniu_s_hui@2x.png in Resources */,
 				041814651AFA20190014A032 /* wo_dingdan@3x.png in Resources */,
 				043A1CD41AF7971400E415BF /* SLMeViewController.xib in Resources */,
+				049939451AFB8D7900015AE9 /* SLStartSellVillageNameView.xib in Resources */,
 				041814891AFA20190014A032 /* wo_zushou@3x.png in Resources */,
 				04052DF21AF8821600AEE27A /* nav_xiala@3x.png in Resources */,
 				041814821AFA20190014A032 /* wo_women@2x.png in Resources */,
@@ -1201,10 +1219,12 @@
 				041813CD1AF9BC920014A032 /* SLSettingTableViewCell.m in Sources */,
 				0418142D1AFA1C2F0014A032 /* SLMeTBHeader.m in Sources */,
 				0418141D1AF9FB0B0014A032 /* SLVillageViewController.m in Sources */,
+				0403CE061AFAF1D300A66381 /* SLLoginViewController.m in Sources */,
 				041814291AF9FF9D0014A032 /* SLGuardTableViewController.m in Sources */,
 				041814231AF9FB890014A032 /* SLOrientationTableViewController.m in Sources */,
 				041814011AF9EA860014A032 /* SLFindManageViewController.m in Sources */,
 				043A1D121AF79EA900E415BF /* SLTabBarViewController.m in Sources */,
+				049939441AFB8D7900015AE9 /* SLStartSellVillageNameView.m in Sources */,
 				041813F71AF9E4470014A032 /* SLStartSellHouseViewController.m in Sources */,
 				041813FC1AF9EA480014A032 /* SLFindHousePriceViewController.m in Sources */,
 				043A1CCE1AF7970400E415BF /* SLBuyHouseViewController.m in Sources */,

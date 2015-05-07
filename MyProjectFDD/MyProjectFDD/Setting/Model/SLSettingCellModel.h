@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ "设置"页面--cell的模型
+ */
 @interface SLSettingCellModel : NSObject
 
 @property (nonatomic, strong) NSString *iconImage;

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 /**
- 卫
+ 查房价-卫
  */
 @interface SLGuardTableViewController : UITableViewController
 

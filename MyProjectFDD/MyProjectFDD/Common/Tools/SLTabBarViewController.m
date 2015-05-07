@@ -52,7 +52,8 @@
         NSArray *sysItems = self.tabBar.subviews;
         for (int i=0; i<sysItems.count; i++) {
             if ([sysItems[i] isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
-                [sysItems[i] removeFromSuperview];
+//                [sysItems[i] removeFromSuperview];
+                [sysItems[i] setHidden:YES];
             }
         }
         

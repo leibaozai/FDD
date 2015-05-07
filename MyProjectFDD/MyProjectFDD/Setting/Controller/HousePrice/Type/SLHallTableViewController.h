@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 /**
- 厅
+ 查房价-厅
  */
 @interface SLHallTableViewController : UITableViewController
 

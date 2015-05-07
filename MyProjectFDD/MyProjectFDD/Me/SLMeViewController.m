@@ -10,9 +10,13 @@
 #import "SLUIFactory.h"
 #import "SLMeTBHeader.h"
 
+#import "SLLoginViewController.h"
+
 
 @interface SLMeViewController ()<UITableViewDataSource,UITableViewDelegate>
-
+{
+    SLMeTBHeader *headerVC;
+}
 
 @end
 
@@ -30,7 +34,14 @@
     self.tableView.autoresizesSubviews = NO;
     
     //添加表头
-    SLMeTBHeader *headerVC = [[SLMeTBHeader alloc] initWithNibName:@"SLMeTBHeader" bundle:nil];
+    headerVC = [[SLMeTBHeader alloc] initWithNibName:@"SLMeTBHeader" bundle:nil];
+    
+    //通过tag找出登录按钮 tag--10
+    UIButton *loginButton = (UIButton *)[headerVC.view viewWithTag:10];
+    [loginButton addTarget:self action:@selector(loginButtonClick:) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
     headerVC.view.frame = CGRectMake(0, 0, self.view.frame.size.width, 190);
     self.tableView.tableHeaderView = headerVC.view;
     
@@ -42,6 +53,16 @@
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
 }
 
+#pragma mark - Event Handlers
+
+//登录
+-(void)loginButtonClick:(UIButton *)sender
+{
+    SLLoginViewController *loginVC = [[SLLoginViewController alloc] init];
+    loginVC.hidesBottomBarWhenPushed = YES;
+    
+    [self.navigationController pushViewController:loginVC animated:YES];
+}
 
 #pragma mark -cell点击
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
