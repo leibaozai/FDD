@@ -10,6 +10,8 @@
 #import "SLUIFactory.h"
 #import "SLStartSellHouseViewController.h"
 
+
+
 @interface SLSellHouseViewController ()
 
 @end
@@ -30,6 +32,9 @@
     self.title = @"卖房";
 
     self.navigationItem.leftBarButtonItem = [SLUIFactory createImageBBIWithImage:[UIImage imageNamed:@"nav_xiaoxi"] target:self action:nil];
+    
+    
+    
 }
 
 
