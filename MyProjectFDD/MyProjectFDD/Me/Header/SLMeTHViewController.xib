@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SLMeTHViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TPf-PL-BRJ">
+                    <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                    <subviews>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="zhy-br-OSD">
+                            <rect key="frame" x="20" y="8" width="560" height="29"/>
+                            <segments>
+                                <segment title="所有通话"/>
+                                <segment title="未接来电"/>
+                            </segments>
+                            <color key="tintColor" red="1" green="0.32071360310000002" blue="0.2225215156" alpha="1" colorSpace="calibratedRGB"/>
+                        </segmentedControl>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gb-Fj-Yjy">
+                            <rect key="frame" x="0.0" y="42" width="600" height="1"/>
+                            <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="Fqr-OK-NMf"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="1gb-Fj-Yjy" firstAttribute="leading" secondItem="TPf-PL-BRJ" secondAttribute="leading" id="9lW-qF-lPt"/>
+                        <constraint firstAttribute="bottom" secondItem="zhy-br-OSD" secondAttribute="bottom" constant="8" id="G6H-Lm-fK7"/>
+                        <constraint firstAttribute="trailing" secondItem="zhy-br-OSD" secondAttribute="trailing" constant="20" id="JKI-7l-Mf6"/>
+                        <constraint firstItem="zhy-br-OSD" firstAttribute="leading" secondItem="TPf-PL-BRJ" secondAttribute="leading" constant="20" id="Jtl-Pt-qul"/>
+                        <constraint firstAttribute="height" constant="44" id="N1L-Bh-r6N"/>
+                        <constraint firstAttribute="bottom" secondItem="1gb-Fj-Yjy" secondAttribute="bottom" constant="1" id="tcg-co-pZa"/>
+                        <constraint firstAttribute="trailing" secondItem="1gb-Fj-Yjy" secondAttribute="trailing" id="uJO-By-Xel"/>
+                        <constraint firstItem="zhy-br-OSD" firstAttribute="top" secondItem="TPf-PL-BRJ" secondAttribute="top" constant="8" id="wBY-V0-eNr"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="TPf-PL-BRJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="8LT-mX-1jG"/>
+                <constraint firstItem="TPf-PL-BRJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="QOV-FV-oDt"/>
+                <constraint firstAttribute="trailing" secondItem="TPf-PL-BRJ" secondAttribute="trailing" id="exc-dl-IbJ"/>
+            </constraints>
+            <point key="canvasLocation" x="336" y="156"/>
+        </view>
+    </objects>
+</document>

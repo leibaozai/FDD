@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0400AD161AFDD32100A8A98A /* SLMeDDHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400AD0E1AFDD32100A8A98A /* SLMeDDHViewController.m */; };
+		0400AD171AFDD32100A8A98A /* SLMeDDHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD0F1AFDD32100A8A98A /* SLMeDDHViewController.xib */; };
+		0400AD181AFDD32100A8A98A /* SLMeFYSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400AD111AFDD32100A8A98A /* SLMeFYSCViewController.m */; };
+		0400AD191AFDD32100A8A98A /* SLMeFYSCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD121AFDD32100A8A98A /* SLMeFYSCViewController.xib */; };
+		0400AD1A1AFDD32100A8A98A /* SLMeQBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400AD141AFDD32100A8A98A /* SLMeQBViewController.m */; };
+		0400AD1B1AFDD32100A8A98A /* SLMeQBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD151AFDD32100A8A98A /* SLMeQBViewController.xib */; };
+		0400AD1F1AFDD3E500A8A98A /* SLMeYYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400AD1D1AFDD3E500A8A98A /* SLMeYYViewController.m */; };
+		0400AD201AFDD3E500A8A98A /* SLMeYYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD1E1AFDD3E500A8A98A /* SLMeYYViewController.xib */; };
+		0400AD241AFDD3FA00A8A98A /* SLMeDDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400AD221AFDD3FA00A8A98A /* SLMeDDViewController.m */; };
+		0400AD251AFDD3FA00A8A98A /* SLMeDDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD231AFDD3FA00A8A98A /* SLMeDDViewController.xib */; };
+		0400AD291AFDD40900A8A98A /* SLMePJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400AD271AFDD40900A8A98A /* SLMePJViewController.m */; };
+		0400AD2A1AFDD40900A8A98A /* SLMePJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD281AFDD40900A8A98A /* SLMePJViewController.xib */; };
+		0400AD2E1AFDD87200A8A98A /* SLMePJHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400AD2C1AFDD87200A8A98A /* SLMePJHelpViewController.m */; };
+		0400AD2F1AFDD87200A8A98A /* SLMePJHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD2D1AFDD87200A8A98A /* SLMePJHelpViewController.xib */; };
 		0403CE061AFAF1D300A66381 /* SLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403CE041AFAF1D300A66381 /* SLLoginViewController.m */; };
 		0403CE071AFAF1D300A66381 /* SLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0403CE051AFAF1D300A66381 /* SLLoginViewController.xib */; };
 		04052DBE1AF8810700AEE27A /* SLUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04052DBD1AF8810700AEE27A /* SLUIFactory.m */; };
@@ -37,6 +51,16 @@
 		04052DF31AF8821600AEE27A /* nav_xiaoxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 04052DD81AF8821600AEE27A /* nav_xiaoxi.png */; };
 		04052DF41AF8821600AEE27A /* nav_xiaoxi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04052DD91AF8821600AEE27A /* nav_xiaoxi@2x.png */; };
 		04052DF51AF8821600AEE27A /* nav_xiaoxi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04052DDA1AF8821600AEE27A /* nav_xiaoxi@3x.png */; };
+		0410785B1AFD93C000E56E30 /* SLNextHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0410785A1AFD93C000E56E30 /* SLNextHeaderView.m */; };
+		041078621AFD9DB900E56E30 /* shouye_gujia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0410785D1AFD9DB900E56E30 /* shouye_gujia@2x.png */; };
+		041078631AFD9DB900E56E30 /* shouye_maifang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0410785E1AFD9DB900E56E30 /* shouye_maifang@2x.png */; };
+		041078641AFD9DB900E56E30 /* shouye_tianjia12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0410785F1AFD9DB900E56E30 /* shouye_tianjia12@2x.png */; };
+		041078651AFD9DB900E56E30 /* shouye_tianjia1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041078601AFD9DB900E56E30 /* shouye_tianjia1@2x.png */; };
+		041078661AFD9DB900E56E30 /* shouye_tianjia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041078611AFD9DB900E56E30 /* shouye_tianjia@2x.png */; };
+		0410786D1AFDB23A00E56E30 /* SLNearbyShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0410786B1AFDB23A00E56E30 /* SLNearbyShopViewController.m */; };
+		0410786E1AFDB23A00E56E30 /* SLNearbyShopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0410786C1AFDB23A00E56E30 /* SLNearbyShopViewController.xib */; };
+		041078721AFDB36700E56E30 /* xzxq-dd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041078701AFDB36700E56E30 /* xzxq-dd@2x.png */; };
+		041078731AFDB36700E56E30 /* xzxq-dwlb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041078711AFDB36700E56E30 /* xzxq-dwlb@2x.png */; };
 		041813C71AF99C6F0014A032 /* SLSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041813C61AF99C6F0014A032 /* SLSettingViewController.xib */; };
 		041813CD1AF9BC920014A032 /* SLSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041813CB1AF9BC920014A032 /* SLSettingTableViewCell.m */; };
 		041813CE1AF9BC920014A032 /* SLSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041813CC1AF9BC920014A032 /* SLSettingTableViewCell.xib */; };
@@ -75,8 +99,6 @@
 		041814231AF9FB890014A032 /* SLOrientationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041814221AF9FB890014A032 /* SLOrientationTableViewController.m */; };
 		041814261AF9FF0A0014A032 /* SLHallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041814251AF9FF0A0014A032 /* SLHallTableViewController.m */; };
 		041814291AF9FF9D0014A032 /* SLGuardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041814281AF9FF9D0014A032 /* SLGuardTableViewController.m */; };
-		0418142D1AFA1C2F0014A032 /* SLMeTBHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418142B1AFA1C2F0014A032 /* SLMeTBHeader.m */; };
-		0418142E1AFA1C2F0014A032 /* SLMeTBHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0418142C1AFA1C2F0014A032 /* SLMeTBHeader.xib */; };
 		0418145D1AFA20190014A032 /* wo_beijing@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 041814301AFA20180014A032 /* wo_beijing@2x.jpg */; };
 		0418145E1AFA20190014A032 /* wo_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041814311AFA20180014A032 /* wo_bg@2x.png */; };
 		0418145F1AFA20190014A032 /* wo_bianji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041814321AFA20180014A032 /* wo_bianji@2x.png */; };
@@ -122,6 +144,13 @@
 		041814871AFA20190014A032 /* wo_zushou.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418145A1AFA20190014A032 /* wo_zushou.png */; };
 		041814881AFA20190014A032 /* wo_zushou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418145B1AFA20190014A032 /* wo_zushou@2x.png */; };
 		041814891AFA20190014A032 /* wo_zushou@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418145C1AFA20190014A032 /* wo_zushou@3x.png */; };
+		04317C921AFCB823009D000A /* SLNextButtonClickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04317C901AFCB823009D000A /* SLNextButtonClickViewController.m */; };
+		04317C981AFCBB02009D000A /* SLPreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04317C961AFCBB02009D000A /* SLPreViewController.m */; };
+		04317C991AFCBB02009D000A /* SLPreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04317C971AFCBB02009D000A /* SLPreViewController.xib */; };
+		04317C9D1AFCD059009D000A /* SLNextButtonClickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04317C9C1AFCD059009D000A /* SLNextButtonClickViewController.xib */; };
+		04317CA31AFCD366009D000A /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04317CA11AFCD366009D000A /* camera@2x.png */; };
+		04317CA41AFCD366009D000A /* camera_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04317CA21AFCD366009D000A /* camera_press@2x.png */; };
+		04317CA61AFCE5B4009D000A /* SLNextHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04317CA51AFCE5B4009D000A /* SLNextHeaderView.xib */; };
 		043A1C8E1AF78E7500E415BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1C8D1AF78E7500E415BF /* main.m */; };
 		043A1C911AF78E7500E415BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1C901AF78E7500E415BF /* AppDelegate.m */; };
 		043A1C941AF78E7500E415BF /* MyProjectFDD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 043A1C921AF78E7500E415BF /* MyProjectFDD.xcdatamodeld */; };
@@ -133,8 +162,6 @@
 		043A1CCA1AF796EB00E415BF /* SLSellHouseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CC81AF796EB00E415BF /* SLSellHouseViewController.xib */; };
 		043A1CCE1AF7970400E415BF /* SLBuyHouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1CCC1AF7970400E415BF /* SLBuyHouseViewController.m */; };
 		043A1CCF1AF7970400E415BF /* SLBuyHouseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CCD1AF7970400E415BF /* SLBuyHouseViewController.xib */; };
-		043A1CD31AF7971400E415BF /* SLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1CD11AF7971400E415BF /* SLMeViewController.m */; };
-		043A1CD41AF7971400E415BF /* SLMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CD21AF7971400E415BF /* SLMeViewController.xib */; };
 		043A1CD81AF7972200E415BF /* SLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A1CD61AF7972200E415BF /* SLSettingViewController.m */; };
 		043A1CF51AF7995000E415BF /* daohang_buy01.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CDD1AF7995000E415BF /* daohang_buy01.png */; };
 		043A1CF61AF7995000E415BF /* daohang_buy01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A1CDE1AF7995000E415BF /* daohang_buy01@2x.png */; };
@@ -194,6 +221,20 @@
 		0449FA0B1AF8D79C00A5A2A2 /* publish_pic_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0449F9ED1AF8D79C00A5A2A2 /* publish_pic_normal.png */; };
 		0449FA0C1AF8D79C00A5A2A2 /* publish_pic_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0449F9EE1AF8D79C00A5A2A2 /* publish_pic_normal@2x.png */; };
 		0449FA0D1AF8D79C00A5A2A2 /* publish_pic_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0449F9EF1AF8D79C00A5A2A2 /* publish_pic_normal@3x.png */; };
+		048FFED71AFDB940007FAA8D /* SLMeSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FFECF1AFDB940007FAA8D /* SLMeSettingViewController.m */; };
+		048FFED81AFDB940007FAA8D /* SLMeSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048FFED01AFDB940007FAA8D /* SLMeSettingViewController.xib */; };
+		048FFED91AFDB940007FAA8D /* SLMeTBHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FFED21AFDB940007FAA8D /* SLMeTBHeader.m */; };
+		048FFEDA1AFDB940007FAA8D /* SLMeTBHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048FFED31AFDB940007FAA8D /* SLMeTBHeader.xib */; };
+		048FFEDB1AFDB940007FAA8D /* SLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FFED51AFDB940007FAA8D /* SLMeViewController.m */; };
+		048FFEDC1AFDB940007FAA8D /* SLMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048FFED61AFDB940007FAA8D /* SLMeViewController.xib */; };
+		048FFEF11AFDBD39007FAA8D /* SLMeJJRKFRLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FFEEF1AFDBD39007FAA8D /* SLMeJJRKFRLViewController.m */; };
+		048FFEF21AFDBD39007FAA8D /* SLMeJJRKFRLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048FFEF01AFDBD39007FAA8D /* SLMeJJRKFRLViewController.xib */; };
+		048FFEF61AFDBD4A007FAA8D /* SLMeZSJJRGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FFEF41AFDBD4A007FAA8D /* SLMeZSJJRGLViewController.m */; };
+		048FFEF71AFDBD4A007FAA8D /* SLMeZSJJRGLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048FFEF51AFDBD4A007FAA8D /* SLMeZSJJRGLViewController.xib */; };
+		048FFEFB1AFDBD60007FAA8D /* SLMePBGDJJRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FFEF91AFDBD60007FAA8D /* SLMePBGDJJRViewController.m */; };
+		048FFEFC1AFDBD60007FAA8D /* SLMePBGDJJRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048FFEFA1AFDBD60007FAA8D /* SLMePBGDJJRViewController.xib */; };
+		048FFF111AFDD212007FAA8D /* SLMeTHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FFF0F1AFDD212007FAA8D /* SLMeTHViewController.m */; };
+		048FFF121AFDD212007FAA8D /* SLMeTHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048FFF101AFDD212007FAA8D /* SLMeTHViewController.xib */; };
 		049939441AFB8D7900015AE9 /* SLStartSellVillageNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049939421AFB8D7900015AE9 /* SLStartSellVillageNameView.m */; };
 		049939451AFB8D7900015AE9 /* SLStartSellVillageNameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049939431AFB8D7900015AE9 /* SLStartSellVillageNameView.xib */; };
 /* End PBXBuildFile section */
@@ -209,6 +250,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0400AD0D1AFDD32100A8A98A /* SLMeDDHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMeDDHViewController.h; sourceTree = "<group>"; };
+		0400AD0E1AFDD32100A8A98A /* SLMeDDHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMeDDHViewController.m; sourceTree = "<group>"; };
+		0400AD0F1AFDD32100A8A98A /* SLMeDDHViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMeDDHViewController.xib; sourceTree = "<group>"; };
+		0400AD101AFDD32100A8A98A /* SLMeFYSCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMeFYSCViewController.h; sourceTree = "<group>"; };
+		0400AD111AFDD32100A8A98A /* SLMeFYSCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMeFYSCViewController.m; sourceTree = "<group>"; };
+		0400AD121AFDD32100A8A98A /* SLMeFYSCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMeFYSCViewController.xib; sourceTree = "<group>"; };
+		0400AD131AFDD32100A8A98A /* SLMeQBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMeQBViewController.h; sourceTree = "<group>"; };
+		0400AD141AFDD32100A8A98A /* SLMeQBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMeQBViewController.m; sourceTree = "<group>"; };
+		0400AD151AFDD32100A8A98A /* SLMeQBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMeQBViewController.xib; sourceTree = "<group>"; };
+		0400AD1C1AFDD3E500A8A98A /* SLMeYYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMeYYViewController.h; sourceTree = "<group>"; };
+		0400AD1D1AFDD3E500A8A98A /* SLMeYYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMeYYViewController.m; sourceTree = "<group>"; };
+		0400AD1E1AFDD3E500A8A98A /* SLMeYYViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMeYYViewController.xib; sourceTree = "<group>"; };
+		0400AD211AFDD3FA00A8A98A /* SLMeDDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMeDDViewController.h; sourceTree = "<group>"; };
+		0400AD221AFDD3FA00A8A98A /* SLMeDDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMeDDViewController.m; sourceTree = "<group>"; };
+		0400AD231AFDD3FA00A8A98A /* SLMeDDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMeDDViewController.xib; sourceTree = "<group>"; };
+		0400AD261AFDD40900A8A98A /* SLMePJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMePJViewController.h; sourceTree = "<group>"; };
+		0400AD271AFDD40900A8A98A /* SLMePJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMePJViewController.m; sourceTree = "<group>"; };
+		0400AD281AFDD40900A8A98A /* SLMePJViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMePJViewController.xib; sourceTree = "<group>"; };
+		0400AD2B1AFDD87200A8A98A /* SLMePJHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMePJHelpViewController.h; sourceTree = "<group>"; };
+		0400AD2C1AFDD87200A8A98A /* SLMePJHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMePJHelpViewController.m; sourceTree = "<group>"; };
+		0400AD2D1AFDD87200A8A98A /* SLMePJHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMePJHelpViewController.xib; sourceTree = "<group>"; };
 		0403CE031AFAF1D300A66381 /* SLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLLoginViewController.h; sourceTree = "<group>"; };
 		0403CE041AFAF1D300A66381 /* SLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLLoginViewController.m; sourceTree = "<group>"; };
 		0403CE051AFAF1D300A66381 /* SLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLLoginViewController.xib; sourceTree = "<group>"; };
@@ -241,6 +303,18 @@
 		04052DD81AF8821600AEE27A /* nav_xiaoxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_xiaoxi.png; sourceTree = "<group>"; };
 		04052DD91AF8821600AEE27A /* nav_xiaoxi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_xiaoxi@2x.png"; sourceTree = "<group>"; };
 		04052DDA1AF8821600AEE27A /* nav_xiaoxi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_xiaoxi@3x.png"; sourceTree = "<group>"; };
+		041078591AFD93C000E56E30 /* SLNextHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLNextHeaderView.h; path = MyProjectFDD/SellHouse/NextButtonClick/SLNextHeaderView.h; sourceTree = SOURCE_ROOT; };
+		0410785A1AFD93C000E56E30 /* SLNextHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLNextHeaderView.m; path = MyProjectFDD/SellHouse/NextButtonClick/SLNextHeaderView.m; sourceTree = SOURCE_ROOT; };
+		0410785D1AFD9DB900E56E30 /* shouye_gujia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shouye_gujia@2x.png"; sourceTree = "<group>"; };
+		0410785E1AFD9DB900E56E30 /* shouye_maifang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shouye_maifang@2x.png"; sourceTree = "<group>"; };
+		0410785F1AFD9DB900E56E30 /* shouye_tianjia12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shouye_tianjia12@2x.png"; sourceTree = "<group>"; };
+		041078601AFD9DB900E56E30 /* shouye_tianjia1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shouye_tianjia1@2x.png"; sourceTree = "<group>"; };
+		041078611AFD9DB900E56E30 /* shouye_tianjia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shouye_tianjia@2x.png"; sourceTree = "<group>"; };
+		0410786A1AFDB23A00E56E30 /* SLNearbyShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNearbyShopViewController.h; sourceTree = "<group>"; };
+		0410786B1AFDB23A00E56E30 /* SLNearbyShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLNearbyShopViewController.m; sourceTree = "<group>"; };
+		0410786C1AFDB23A00E56E30 /* SLNearbyShopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLNearbyShopViewController.xib; sourceTree = "<group>"; };
+		041078701AFDB36700E56E30 /* xzxq-dd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xzxq-dd@2x.png"; sourceTree = "<group>"; };
+		041078711AFDB36700E56E30 /* xzxq-dwlb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xzxq-dwlb@2x.png"; sourceTree = "<group>"; };
 		041813C61AF99C6F0014A032 /* SLSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SLSettingViewController.xib; path = ../SLSettingViewController.xib; sourceTree = "<group>"; };
 		041813CA1AF9BC920014A032 /* SLSettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLSettingTableViewCell.h; path = ../SLSettingTableViewCell.h; sourceTree = "<group>"; };
 		041813CB1AF9BC920014A032 /* SLSettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLSettingTableViewCell.m; path = ../SLSettingTableViewCell.m; sourceTree = "<group>"; };
@@ -290,9 +364,6 @@
 		041814251AF9FF0A0014A032 /* SLHallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLHallTableViewController.m; sourceTree = "<group>"; };
 		041814271AF9FF9D0014A032 /* SLGuardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGuardTableViewController.h; sourceTree = "<group>"; };
 		041814281AF9FF9D0014A032 /* SLGuardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGuardTableViewController.m; sourceTree = "<group>"; };
-		0418142A1AFA1C2F0014A032 /* SLMeTBHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMeTBHeader.h; sourceTree = "<group>"; };
-		0418142B1AFA1C2F0014A032 /* SLMeTBHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMeTBHeader.m; sourceTree = "<group>"; };
-		0418142C1AFA1C2F0014A032 /* SLMeTBHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMeTBHeader.xib; sourceTree = "<group>"; };
 		041814301AFA20180014A032 /* wo_beijing@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wo_beijing@2x.jpg"; sourceTree = "<group>"; };
 		041814311AFA20180014A032 /* wo_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wo_bg@2x.png"; sourceTree = "<group>"; };
 		041814321AFA20180014A032 /* wo_bianji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wo_bianji@2x.png"; sourceTree = "<group>"; };
@@ -338,6 +409,15 @@
 		0418145A1AFA20190014A032 /* wo_zushou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wo_zushou.png; sourceTree = "<group>"; };
 		0418145B1AFA20190014A032 /* wo_zushou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wo_zushou@2x.png"; sourceTree = "<group>"; };
 		0418145C1AFA20190014A032 /* wo_zushou@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wo_zushou@3x.png"; sourceTree = "<group>"; };
+		04317C8F1AFCB823009D000A /* SLNextButtonClickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLNextButtonClickViewController.h; path = MyProjectFDD/SellHouse/NextButtonClick/SLNextButtonClickViewController.h; sourceTree = SOURCE_ROOT; };
+		04317C901AFCB823009D000A /* SLNextButtonClickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLNextButtonClickViewController.m; path = MyProjectFDD/SellHouse/NextButtonClick/SLNextButtonClickViewController.m; sourceTree = SOURCE_ROOT; };
+		04317C951AFCBB02009D000A /* SLPreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLPreViewController.h; path = MyProjectFDD/SellHouse/NextButtonClick/SLPreViewController.h; sourceTree = SOURCE_ROOT; };
+		04317C961AFCBB02009D000A /* SLPreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLPreViewController.m; path = MyProjectFDD/SellHouse/NextButtonClick/SLPreViewController.m; sourceTree = SOURCE_ROOT; };
+		04317C971AFCBB02009D000A /* SLPreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SLPreViewController.xib; path = MyProjectFDD/SellHouse/NextButtonClick/SLPreViewController.xib; sourceTree = SOURCE_ROOT; };
+		04317C9C1AFCD059009D000A /* SLNextButtonClickViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SLNextButtonClickViewController.xib; path = MyProjectFDD/SellHouse/NextButtonClick/SLNextButtonClickViewController.xib; sourceTree = SOURCE_ROOT; };
+		04317CA11AFCD366009D000A /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		04317CA21AFCD366009D000A /* camera_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_press@2x.png"; sourceTree = "<group>"; };
+		04317CA51AFCE5B4009D000A /* SLNextHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SLNextHeaderView.xib; path = MyProjectFDD/SellHouse/NextButtonClick/SLNextHeaderView.xib; sourceTree = SOURCE_ROOT; };
 		043A1C881AF78E7500E415BF /* MyProjectFDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProjectFDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043A1C8C1AF78E7500E415BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043A1C8D1AF78E7500E415BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -357,9 +437,6 @@
 		043A1CCB1AF7970400E415BF /* SLBuyHouseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLBuyHouseViewController.h; path = MyProjectFDD/BuyHouse/SLBuyHouseViewController.h; sourceTree = SOURCE_ROOT; };
 		043A1CCC1AF7970400E415BF /* SLBuyHouseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLBuyHouseViewController.m; path = MyProjectFDD/BuyHouse/SLBuyHouseViewController.m; sourceTree = SOURCE_ROOT; };
 		043A1CCD1AF7970400E415BF /* SLBuyHouseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SLBuyHouseViewController.xib; path = MyProjectFDD/BuyHouse/SLBuyHouseViewController.xib; sourceTree = SOURCE_ROOT; };
-		043A1CD01AF7971400E415BF /* SLMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMeViewController.h; sourceTree = "<group>"; };
-		043A1CD11AF7971400E415BF /* SLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMeViewController.m; sourceTree = "<group>"; };
-		043A1CD21AF7971400E415BF /* SLMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMeViewController.xib; sourceTree = "<group>"; };
 		043A1CD51AF7972200E415BF /* SLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLSettingViewController.h; path = ../SLSettingViewController.h; sourceTree = "<group>"; };
 		043A1CD61AF7972200E415BF /* SLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLSettingViewController.m; path = ../SLSettingViewController.m; sourceTree = "<group>"; };
 		043A1CDD1AF7995000E415BF /* daohang_buy01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daohang_buy01.png; sourceTree = "<group>"; };
@@ -425,6 +502,27 @@
 		0449F9ED1AF8D79C00A5A2A2 /* publish_pic_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = publish_pic_normal.png; sourceTree = "<group>"; };
 		0449F9EE1AF8D79C00A5A2A2 /* publish_pic_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "publish_pic_normal@2x.png"; sourceTree = "<group>"; };
 		0449F9EF1AF8D79C00A5A2A2 /* publish_pic_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "publish_pic_normal@3x.png"; sourceTree = "<group>"; };
+		048FFECE1AFDB940007FAA8D /* SLMeSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMeSettingViewController.h; sourceTree = "<group>"; };
+		048FFECF1AFDB940007FAA8D /* SLMeSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMeSettingViewController.m; sourceTree = "<group>"; };
+		048FFED01AFDB940007FAA8D /* SLMeSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMeSettingViewController.xib; sourceTree = "<group>"; };
+		048FFED11AFDB940007FAA8D /* SLMeTBHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLMeTBHeader.h; path = MyProjectFDD/Me/SLMeTBHeader.h; sourceTree = SOURCE_ROOT; };
+		048FFED21AFDB940007FAA8D /* SLMeTBHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLMeTBHeader.m; path = MyProjectFDD/Me/SLMeTBHeader.m; sourceTree = SOURCE_ROOT; };
+		048FFED31AFDB940007FAA8D /* SLMeTBHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SLMeTBHeader.xib; path = MyProjectFDD/Me/SLMeTBHeader.xib; sourceTree = SOURCE_ROOT; };
+		048FFED41AFDB940007FAA8D /* SLMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLMeViewController.h; path = MyProjectFDD/Me/SLMeViewController.h; sourceTree = SOURCE_ROOT; };
+		048FFED51AFDB940007FAA8D /* SLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLMeViewController.m; path = MyProjectFDD/Me/SLMeViewController.m; sourceTree = SOURCE_ROOT; };
+		048FFED61AFDB940007FAA8D /* SLMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SLMeViewController.xib; path = MyProjectFDD/Me/SLMeViewController.xib; sourceTree = SOURCE_ROOT; };
+		048FFEEE1AFDBD39007FAA8D /* SLMeJJRKFRLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMeJJRKFRLViewController.h; sourceTree = "<group>"; };
+		048FFEEF1AFDBD39007FAA8D /* SLMeJJRKFRLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMeJJRKFRLViewController.m; sourceTree = "<group>"; };
+		048FFEF01AFDBD39007FAA8D /* SLMeJJRKFRLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMeJJRKFRLViewController.xib; sourceTree = "<group>"; };
+		048FFEF31AFDBD4A007FAA8D /* SLMeZSJJRGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMeZSJJRGLViewController.h; sourceTree = "<group>"; };
+		048FFEF41AFDBD4A007FAA8D /* SLMeZSJJRGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMeZSJJRGLViewController.m; sourceTree = "<group>"; };
+		048FFEF51AFDBD4A007FAA8D /* SLMeZSJJRGLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMeZSJJRGLViewController.xib; sourceTree = "<group>"; };
+		048FFEF81AFDBD60007FAA8D /* SLMePBGDJJRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMePBGDJJRViewController.h; sourceTree = "<group>"; };
+		048FFEF91AFDBD60007FAA8D /* SLMePBGDJJRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMePBGDJJRViewController.m; sourceTree = "<group>"; };
+		048FFEFA1AFDBD60007FAA8D /* SLMePBGDJJRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMePBGDJJRViewController.xib; sourceTree = "<group>"; };
+		048FFF0E1AFDD212007FAA8D /* SLMeTHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMeTHViewController.h; sourceTree = "<group>"; };
+		048FFF0F1AFDD212007FAA8D /* SLMeTHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMeTHViewController.m; sourceTree = "<group>"; };
+		048FFF101AFDD212007FAA8D /* SLMeTHViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMeTHViewController.xib; sourceTree = "<group>"; };
 		049939411AFB8D7900015AE9 /* SLStartSellVillageNameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLStartSellVillageNameView.h; path = MyProjectFDD/SellHouse/SLStartSellVillageNameView.h; sourceTree = SOURCE_ROOT; };
 		049939421AFB8D7900015AE9 /* SLStartSellVillageNameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLStartSellVillageNameView.m; path = MyProjectFDD/SellHouse/SLStartSellVillageNameView.m; sourceTree = SOURCE_ROOT; };
 		049939431AFB8D7900015AE9 /* SLStartSellVillageNameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SLStartSellVillageNameView.xib; path = MyProjectFDD/SellHouse/SLStartSellVillageNameView.xib; sourceTree = SOURCE_ROOT; };
@@ -448,6 +546,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0400AD0C1AFDD32100A8A98A /* Section01 */ = {
+			isa = PBXGroup;
+			children = (
+				0400AD0D1AFDD32100A8A98A /* SLMeDDHViewController.h */,
+				0400AD0E1AFDD32100A8A98A /* SLMeDDHViewController.m */,
+				0400AD0F1AFDD32100A8A98A /* SLMeDDHViewController.xib */,
+				0400AD101AFDD32100A8A98A /* SLMeFYSCViewController.h */,
+				0400AD111AFDD32100A8A98A /* SLMeFYSCViewController.m */,
+				0400AD121AFDD32100A8A98A /* SLMeFYSCViewController.xib */,
+				0400AD131AFDD32100A8A98A /* SLMeQBViewController.h */,
+				0400AD141AFDD32100A8A98A /* SLMeQBViewController.m */,
+				0400AD151AFDD32100A8A98A /* SLMeQBViewController.xib */,
+			);
+			path = Section01;
+			sourceTree = "<group>";
+		};
 		04052DBF1AF8821600AEE27A /* navgation */ = {
 			isa = PBXGroup;
 			children = (
@@ -480,6 +594,27 @@
 				04052DDA1AF8821600AEE27A /* nav_xiaoxi@3x.png */,
 			);
 			path = navgation;
+			sourceTree = "<group>";
+		};
+		0410785C1AFD9DB900E56E30 /* 更多-估价 */ = {
+			isa = PBXGroup;
+			children = (
+				0410785D1AFD9DB900E56E30 /* shouye_gujia@2x.png */,
+				0410785E1AFD9DB900E56E30 /* shouye_maifang@2x.png */,
+				0410785F1AFD9DB900E56E30 /* shouye_tianjia12@2x.png */,
+				041078601AFD9DB900E56E30 /* shouye_tianjia1@2x.png */,
+				041078611AFD9DB900E56E30 /* shouye_tianjia@2x.png */,
+			);
+			path = "更多-估价";
+			sourceTree = "<group>";
+		};
+		0410786F1AFDB36700E56E30 /* 附近门店 */ = {
+			isa = PBXGroup;
+			children = (
+				041078701AFDB36700E56E30 /* xzxq-dd@2x.png */,
+				041078711AFDB36700E56E30 /* xzxq-dwlb@2x.png */,
+			);
+			path = "附近门店";
 			sourceTree = "<group>";
 		};
 		041813CF1AF9BE350014A032 /* Setting */ = {
@@ -529,9 +664,9 @@
 				043A1CD61AF7972200E415BF /* SLSettingViewController.m */,
 				041813CA1AF9BC920014A032 /* SLSettingTableViewCell.h */,
 				041813CB1AF9BC920014A032 /* SLSettingTableViewCell.m */,
-				041814171AF9F64E0014A032 /* HousePrice */,
-				041814161AF9F6380014A032 /* Valuation */,
 				041814151AF9F6140014A032 /* Manager */,
+				041814161AF9F6380014A032 /* Valuation */,
+				041814171AF9F64E0014A032 /* HousePrice */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -555,6 +690,9 @@
 				041813FE1AF9EA860014A032 /* SLFindManageViewController.h */,
 				041813FF1AF9EA860014A032 /* SLFindManageViewController.m */,
 				041814001AF9EA860014A032 /* SLFindManageViewController.xib */,
+				0410786A1AFDB23A00E56E30 /* SLNearbyShopViewController.h */,
+				0410786B1AFDB23A00E56E30 /* SLNearbyShopViewController.m */,
+				0410786C1AFDB23A00E56E30 /* SLNearbyShopViewController.xib */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -665,6 +803,43 @@
 			path = wo;
 			sourceTree = "<group>";
 		};
+		04317C8E1AFCB7C6009D000A /* NextButtonClick */ = {
+			isa = PBXGroup;
+			children = (
+				04317C8F1AFCB823009D000A /* SLNextButtonClickViewController.h */,
+				04317C901AFCB823009D000A /* SLNextButtonClickViewController.m */,
+				04317C9C1AFCD059009D000A /* SLNextButtonClickViewController.xib */,
+				041078591AFD93C000E56E30 /* SLNextHeaderView.h */,
+				0410785A1AFD93C000E56E30 /* SLNextHeaderView.m */,
+				04317CA51AFCE5B4009D000A /* SLNextHeaderView.xib */,
+				04317C951AFCBB02009D000A /* SLPreViewController.h */,
+				04317C961AFCBB02009D000A /* SLPreViewController.m */,
+				04317C971AFCBB02009D000A /* SLPreViewController.xib */,
+			);
+			name = NextButtonClick;
+			path = MyProjectFDD/SellHouse/NextButtonClick;
+			sourceTree = "<group>";
+		};
+		04317C941AFCB844009D000A /* VillageName */ = {
+			isa = PBXGroup;
+			children = (
+				049939411AFB8D7900015AE9 /* SLStartSellVillageNameView.h */,
+				049939421AFB8D7900015AE9 /* SLStartSellVillageNameView.m */,
+				049939431AFB8D7900015AE9 /* SLStartSellVillageNameView.xib */,
+			);
+			name = VillageName;
+			path = MyProjectFDD/SellHouse/VillageName;
+			sourceTree = "<group>";
+		};
+		04317CA01AFCD366009D000A /* 发布房源 */ = {
+			isa = PBXGroup;
+			children = (
+				04317CA11AFCD366009D000A /* camera@2x.png */,
+				04317CA21AFCD366009D000A /* camera_press@2x.png */,
+			);
+			path = "发布房源";
+			sourceTree = "<group>";
+		};
 		043A1C7F1AF78E7400E415BF = {
 			isa = PBXGroup;
 			children = (
@@ -695,7 +870,6 @@
 				043A1C9B1AF78E7500E415BF /* Images.xcassets */,
 				043A1C9D1AF78E7500E415BF /* LaunchScreen.xib */,
 				043A1C921AF78E7500E415BF /* MyProjectFDD.xcdatamodeld */,
-				043A1CC21AF7942B00E415BF /* Search */,
 				043A1CC11AF793FC00E415BF /* Login&Register */,
 				043A1CBE1AF7938200E415BF /* BuyHouse */,
 				043A1CBD1AF7935C00E415BF /* SellHouse */,
@@ -799,9 +973,8 @@
 				041813F41AF9E4470014A032 /* SLStartSellHouseViewController.h */,
 				041813F51AF9E4470014A032 /* SLStartSellHouseViewController.m */,
 				041813F61AF9E4470014A032 /* SLStartSellHouseViewController.xib */,
-				049939411AFB8D7900015AE9 /* SLStartSellVillageNameView.h */,
-				049939421AFB8D7900015AE9 /* SLStartSellVillageNameView.m */,
-				049939431AFB8D7900015AE9 /* SLStartSellVillageNameView.xib */,
+				04317C941AFCB844009D000A /* VillageName */,
+				04317C8E1AFCB7C6009D000A /* NextButtonClick */,
 			);
 			name = SellHouse;
 			path = SellHourse;
@@ -823,14 +996,19 @@
 		043A1CBF1AF793BE00E415BF /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				043A1CD01AF7971400E415BF /* SLMeViewController.h */,
-				043A1CD11AF7971400E415BF /* SLMeViewController.m */,
-				043A1CD21AF7971400E415BF /* SLMeViewController.xib */,
-				0418142A1AFA1C2F0014A032 /* SLMeTBHeader.h */,
-				0418142B1AFA1C2F0014A032 /* SLMeTBHeader.m */,
-				0418142C1AFA1C2F0014A032 /* SLMeTBHeader.xib */,
+				048FFED41AFDB940007FAA8D /* SLMeViewController.h */,
+				048FFED51AFDB940007FAA8D /* SLMeViewController.m */,
+				048FFED61AFDB940007FAA8D /* SLMeViewController.xib */,
+				048FFED11AFDB940007FAA8D /* SLMeTBHeader.h */,
+				048FFED21AFDB940007FAA8D /* SLMeTBHeader.m */,
+				048FFED31AFDB940007FAA8D /* SLMeTBHeader.xib */,
+				048FFEFD1AFDD112007FAA8D /* Header */,
+				0400AD0C1AFDD32100A8A98A /* Section01 */,
+				048FFEDE1AFDBCB4007FAA8D /* Section02 */,
+				048FFECD1AFDB940007FAA8D /* Setting */,
 			);
-			path = Me;
+			name = Me;
+			path = Me/Header;
 			sourceTree = "<group>";
 		};
 		043A1CC01AF793DB00E415BF /* Setting */ = {
@@ -853,13 +1031,6 @@
 			path = "Login&Register";
 			sourceTree = "<group>";
 		};
-		043A1CC21AF7942B00E415BF /* Search */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
 		043A1CDA1AF798E600E415BF /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -871,6 +1042,9 @@
 		043A1CDB1AF798E600E415BF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0410786F1AFDB36700E56E30 /* 附近门店 */,
+				0410785C1AFD9DB900E56E30 /* 更多-估价 */,
+				04317CA01AFCD366009D000A /* 发布房源 */,
 				0418142F1AFA20180014A032 /* wo */,
 				041814081AF9EC9E0014A032 /* 按钮 */,
 				041813CF1AF9BE350014A032 /* Setting */,
@@ -949,6 +1123,56 @@
 				0449F9EF1AF8D79C00A5A2A2 /* publish_pic_normal@3x.png */,
 			);
 			path = publish;
+			sourceTree = "<group>";
+		};
+		048FFECD1AFDB940007FAA8D /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				048FFECE1AFDB940007FAA8D /* SLMeSettingViewController.h */,
+				048FFECF1AFDB940007FAA8D /* SLMeSettingViewController.m */,
+				048FFED01AFDB940007FAA8D /* SLMeSettingViewController.xib */,
+			);
+			name = Setting;
+			path = MyProjectFDD/Me/Setting;
+			sourceTree = SOURCE_ROOT;
+		};
+		048FFEDE1AFDBCB4007FAA8D /* Section02 */ = {
+			isa = PBXGroup;
+			children = (
+				048FFEEE1AFDBD39007FAA8D /* SLMeJJRKFRLViewController.h */,
+				048FFEEF1AFDBD39007FAA8D /* SLMeJJRKFRLViewController.m */,
+				048FFEF01AFDBD39007FAA8D /* SLMeJJRKFRLViewController.xib */,
+				048FFEF31AFDBD4A007FAA8D /* SLMeZSJJRGLViewController.h */,
+				048FFEF41AFDBD4A007FAA8D /* SLMeZSJJRGLViewController.m */,
+				048FFEF51AFDBD4A007FAA8D /* SLMeZSJJRGLViewController.xib */,
+				048FFEF81AFDBD60007FAA8D /* SLMePBGDJJRViewController.h */,
+				048FFEF91AFDBD60007FAA8D /* SLMePBGDJJRViewController.m */,
+				048FFEFA1AFDBD60007FAA8D /* SLMePBGDJJRViewController.xib */,
+			);
+			name = Section02;
+			path = ../Section02;
+			sourceTree = "<group>";
+		};
+		048FFEFD1AFDD112007FAA8D /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				048FFF0E1AFDD212007FAA8D /* SLMeTHViewController.h */,
+				048FFF0F1AFDD212007FAA8D /* SLMeTHViewController.m */,
+				048FFF101AFDD212007FAA8D /* SLMeTHViewController.xib */,
+				0400AD1C1AFDD3E500A8A98A /* SLMeYYViewController.h */,
+				0400AD1D1AFDD3E500A8A98A /* SLMeYYViewController.m */,
+				0400AD1E1AFDD3E500A8A98A /* SLMeYYViewController.xib */,
+				0400AD211AFDD3FA00A8A98A /* SLMeDDViewController.h */,
+				0400AD221AFDD3FA00A8A98A /* SLMeDDViewController.m */,
+				0400AD231AFDD3FA00A8A98A /* SLMeDDViewController.xib */,
+				0400AD261AFDD40900A8A98A /* SLMePJViewController.h */,
+				0400AD271AFDD40900A8A98A /* SLMePJViewController.m */,
+				0400AD281AFDD40900A8A98A /* SLMePJViewController.xib */,
+				0400AD2B1AFDD87200A8A98A /* SLMePJHelpViewController.h */,
+				0400AD2C1AFDD87200A8A98A /* SLMePJHelpViewController.m */,
+				0400AD2D1AFDD87200A8A98A /* SLMePJHelpViewController.xib */,
+			);
+			name = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1032,7 +1256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0400AD191AFDD32100A8A98A /* SLMeFYSCViewController.xib in Resources */,
 				04052DE51AF8821600AEE27A /* nav_fenxiang@2x.png in Resources */,
+				041078631AFD9DB900E56E30 /* shouye_maifang@2x.png in Resources */,
+				041078661AFD9DB900E56E30 /* shouye_tianjia@2x.png in Resources */,
+				048FFED81AFDB940007FAA8D /* SLMeSettingViewController.xib in Resources */,
 				0449FA0D1AF8D79C00A5A2A2 /* publish_pic_normal@3x.png in Resources */,
 				04052DEC1AF8821600AEE27A /* nav_sousuo@3x.png in Resources */,
 				043A1CCA1AF796EB00E415BF /* SLSellHouseViewController.xib in Resources */,
@@ -1049,6 +1277,7 @@
 				041814881AFA20190014A032 /* wo_zushou@2x.png in Resources */,
 				041813E31AF9BE350014A032 /* home_more_icon1@2x.png in Resources */,
 				0449F9FB1AF8D79C00A5A2A2 /* publish_icon2_normal@3x.png in Resources */,
+				048FFF121AFDD212007FAA8D /* SLMeTHViewController.xib in Resources */,
 				041814631AFA20190014A032 /* wo_dingdan.png in Resources */,
 				041814691AFA20190014A032 /* wo_jinzhi.png in Resources */,
 				041814141AF9EC9E0014A032 /* anniuLbai@2x.png in Resources */,
@@ -1061,11 +1290,13 @@
 				043A1D021AF7995000E415BF /* daohang_sell01@2x.png in Resources */,
 				041814661AFA20190014A032 /* wo_duoduohui.png in Resources */,
 				04052DEB1AF8821600AEE27A /* nav_sousuo@2x.png in Resources */,
+				0400AD2F1AFDD87200A8A98A /* SLMePJHelpViewController.xib in Resources */,
 				04052DDE1AF8821600AEE27A /* nav_ditu.png in Resources */,
 				041813EA1AF9BE350014A032 /* home_more_icon3@3x.png in Resources */,
 				041813E61AF9BE350014A032 /* home_more_icon2@2x.png in Resources */,
 				041814121AF9EC9E0014A032 /* anniuL@2x.png in Resources */,
 				041814771AFA20190014A032 /* wo_rili.png in Resources */,
+				0410786E1AFDB23A00E56E30 /* SLNearbyShopViewController.xib in Resources */,
 				041814721AFA20190014A032 /* wo_qianbao@2x.png in Resources */,
 				0418145D1AFA20190014A032 /* wo_beijing@2x.jpg in Resources */,
 				0418146B1AFA20190014A032 /* wo_jinzhi@3x.png in Resources */,
@@ -1081,21 +1312,28 @@
 				0449F9F51AF8D79C00A5A2A2 /* publish_icon1_normal@3x.png in Resources */,
 				0418140F1AF9EC9E0014A032 /* anniu_s_hong@2x.png in Resources */,
 				041813E51AF9BE350014A032 /* home_more_icon2.png in Resources */,
+				048FFEF21AFDBD39007FAA8D /* SLMeJJRKFRLViewController.xib in Resources */,
 				043A1CF61AF7995000E415BF /* daohang_buy01@2x.png in Resources */,
 				041814711AFA20190014A032 /* wo_qianbao.png in Resources */,
 				0449F9F11AF8D79C00A5A2A2 /* publish_delete_normal@2x.png in Resources */,
 				043A1D0A1AF7995000E415BF /* daohang_wo02.png in Resources */,
+				041078731AFDB36700E56E30 /* xzxq-dwlb@2x.png in Resources */,
 				041814671AFA20190014A032 /* wo_duoduohui@2x.png in Resources */,
 				04052DF31AF8821600AEE27A /* nav_xiaoxi.png in Resources */,
 				041814021AF9EA860014A032 /* SLFindManageViewController.xib in Resources */,
 				041814731AFA20190014A032 /* wo_qianbao@3x.png in Resources */,
+				041078721AFDB36700E56E30 /* xzxq-dd@2x.png in Resources */,
 				041813E81AF9BE350014A032 /* home_more_icon3.png in Resources */,
 				041814781AFA20190014A032 /* wo_rili@2x.png in Resources */,
+				0400AD201AFDD3E500A8A98A /* SLMeYYViewController.xib in Resources */,
+				041078621AFD9DB900E56E30 /* shouye_gujia@2x.png in Resources */,
 				041813E11AF9BE350014A032 /* home_more_button1@3x.png in Resources */,
 				0449F9F01AF8D79C00A5A2A2 /* publish_delete_normal.png in Resources */,
 				043A1C9F1AF78E7500E415BF /* LaunchScreen.xib in Resources */,
+				0400AD251AFDD3FA00A8A98A /* SLMeDDViewController.xib in Resources */,
 				041813E01AF9BE350014A032 /* home_more_button1@2x.png in Resources */,
 				04052DF11AF8821600AEE27A /* nav_xiala@2x.png in Resources */,
+				048FFEDA1AFDB940007FAA8D /* SLMeTBHeader.xib in Resources */,
 				0449F9F81AF8D79C00A5A2A2 /* publish_icon2_disable@3x.png in Resources */,
 				0403CE071AFAF1D300A66381 /* SLLoginViewController.xib in Resources */,
 				043A1CFC1AF7995000E415BF /* daohang_gengduo01@2x.png in Resources */,
@@ -1113,6 +1351,7 @@
 				0449F9F31AF8D79C00A5A2A2 /* publish_icon1_normal.png in Resources */,
 				041814601AFA20190014A032 /* wo_dianhua.png in Resources */,
 				04052DE11AF8821600AEE27A /* nav_fanhui.png in Resources */,
+				04317C991AFCBB02009D000A /* SLPreViewController.xib in Resources */,
 				041814701AFA20190014A032 /* wo_men@2x.png in Resources */,
 				04052DDF1AF8821600AEE27A /* nav_ditu@2x.png in Resources */,
 				0418147B1AFA20190014A032 /* wo_shezhi@2x.png in Resources */,
@@ -1124,12 +1363,14 @@
 				0449FA0C1AF8D79C00A5A2A2 /* publish_pic_normal@2x.png in Resources */,
 				043A1D001AF7995000E415BF /* daohang_gengduo02@3x.png in Resources */,
 				041814131AF9EC9E0014A032 /* anniuLbai2@2x.png in Resources */,
+				041078641AFD9DB900E56E30 /* shouye_tianjia12@2x.png in Resources */,
 				041814811AFA20190014A032 /* wo_women.png in Resources */,
 				0449F9FD1AF8D79C00A5A2A2 /* publish_icon_camera@2x.png in Resources */,
 				041814741AFA20190014A032 /* wo_qiepian.png in Resources */,
 				0418147D1AFA20190014A032 /* wo_soucang.png in Resources */,
 				041814831AFA20190014A032 /* wo_women@3x.png in Resources */,
 				043A1CF51AF7995000E415BF /* daohang_buy01.png in Resources */,
+				0400AD2A1AFDD40900A8A98A /* SLMePJViewController.xib in Resources */,
 				0449FA001AF8D79C00A5A2A2 /* publish_icon_manager@2x.png in Resources */,
 				04052DE31AF8821600AEE27A /* nav_fanhui@3x.png in Resources */,
 				041814111AF9EC9E0014A032 /* anniuL2@2x.png in Resources */,
@@ -1138,13 +1379,18 @@
 				041814611AFA20190014A032 /* wo_dianhua@2x.png in Resources */,
 				041813CE1AF9BC920014A032 /* SLSettingTableViewCell.xib in Resources */,
 				0449FA051AF8D79C00A5A2A2 /* publish_icon_safe.png in Resources */,
+				04317CA61AFCE5B4009D000A /* SLNextHeaderView.xib in Resources */,
 				041814641AFA20190014A032 /* wo_dingdan@2x.png in Resources */,
+				04317C9D1AFCD059009D000A /* SLNextButtonClickViewController.xib in Resources */,
+				0400AD1B1AFDD32100A8A98A /* SLMeQBViewController.xib in Resources */,
 				04052DF41AF8821600AEE27A /* nav_xiaoxi@2x.png in Resources */,
 				041814071AF9EAA00014A032 /* SLValuationViewController.xib in Resources */,
 				043A1CFF1AF7995000E415BF /* daohang_gengduo02@2x.png in Resources */,
 				0418146C1AFA20190014A032 /* wo_liaotian@2x.png in Resources */,
 				04052DE01AF8821600AEE27A /* nav_ditu@3x.png in Resources */,
+				041078651AFD9DB900E56E30 /* shouye_tianjia1@2x.png in Resources */,
 				043A1CFA1AF7995000E415BF /* daohang_buy02@3x.png in Resources */,
+				04317CA41AFCD366009D000A /* camera_press@2x.png in Resources */,
 				043A1CF71AF7995000E415BF /* daohang_buy01@3x.png in Resources */,
 				041813E91AF9BE350014A032 /* home_more_icon3@2x.png in Resources */,
 				041814841AFA20190014A032 /* wo_yuyue.png in Resources */,
@@ -1153,14 +1399,16 @@
 				04052DF01AF8821600AEE27A /* nav_xiala.png in Resources */,
 				0418146F1AFA20190014A032 /* wo_man@3x.png in Resources */,
 				04052DEA1AF8821600AEE27A /* nav_sousuo.png in Resources */,
+				048FFEFC1AFDBD60007FAA8D /* SLMePBGDJJRViewController.xib in Resources */,
 				04052DE61AF8821600AEE27A /* nav_fenxiang@3x.png in Resources */,
 				04052DE71AF8821600AEE27A /* nav_gengduo.png in Resources */,
-				0418142E1AFA1C2F0014A032 /* SLMeTBHeader.xib in Resources */,
 				041814681AFA20190014A032 /* wo_duoduohui@3x.png in Resources */,
 				0449FA011AF8D79C00A5A2A2 /* publish_icon_manager@3x.png in Resources */,
+				048FFEDC1AFDB940007FAA8D /* SLMeViewController.xib in Resources */,
 				04052DEF1AF8821600AEE27A /* nav_sousuo_s@3x.png in Resources */,
 				041813E71AF9BE350014A032 /* home_more_icon2@3x.png in Resources */,
 				041814761AFA20190014A032 /* wo_qiepian@3x.png in Resources */,
+				04317CA31AFCD366009D000A /* camera@2x.png in Resources */,
 				0449F9F61AF8D79C00A5A2A2 /* publish_icon2_disable.png in Resources */,
 				0449FA091AF8D79C00A5A2A2 /* publish_more_normal@2x.png in Resources */,
 				041813EC1AF9BE350014A032 /* home_tab_triangle@2x.png in Resources */,
@@ -1180,10 +1428,11 @@
 				041814751AFA20190014A032 /* wo_qiepian@2x.png in Resources */,
 				041814101AF9EC9E0014A032 /* anniu_s_hui@2x.png in Resources */,
 				041814651AFA20190014A032 /* wo_dingdan@3x.png in Resources */,
-				043A1CD41AF7971400E415BF /* SLMeViewController.xib in Resources */,
 				049939451AFB8D7900015AE9 /* SLStartSellVillageNameView.xib in Resources */,
+				048FFEF71AFDBD4A007FAA8D /* SLMeZSJJRGLViewController.xib in Resources */,
 				041814891AFA20190014A032 /* wo_zushou@3x.png in Resources */,
 				04052DF21AF8821600AEE27A /* nav_xiala@3x.png in Resources */,
+				0400AD171AFDD32100A8A98A /* SLMeDDHViewController.xib in Resources */,
 				041814821AFA20190014A032 /* wo_women@2x.png in Resources */,
 				0449F9F21AF8D79C00A5A2A2 /* publish_delete_normal@3x.png in Resources */,
 				0449FA031AF8D79C00A5A2A2 /* publish_icon_managers@2x.png in Resources */,
@@ -1211,32 +1460,48 @@
 			buildActionMask = 2147483647;
 			files = (
 				0449F9D01AF8C8A200A5A2A2 /* SLCityListTableViewController.m in Sources */,
+				0400AD241AFDD3FA00A8A98A /* SLMeDDViewController.m in Sources */,
+				04317C921AFCB823009D000A /* SLNextButtonClickViewController.m in Sources */,
 				041813F11AF9C2300014A032 /* SLSettingCellModel.m in Sources */,
+				048FFEFB1AFDBD60007FAA8D /* SLMePBGDJJRViewController.m in Sources */,
 				041814261AF9FF0A0014A032 /* SLHallTableViewController.m in Sources */,
+				048FFF111AFDD212007FAA8D /* SLMeTHViewController.m in Sources */,
 				041814061AF9EAA00014A032 /* SLValuationViewController.m in Sources */,
 				043A1CC51AF794FE00E415BF /* SLAppSupport.m in Sources */,
+				048FFED71AFDB940007FAA8D /* SLMeSettingViewController.m in Sources */,
+				04317C981AFCBB02009D000A /* SLPreViewController.m in Sources */,
 				04052DBE1AF8810700AEE27A /* SLUIFactory.m in Sources */,
 				041813CD1AF9BC920014A032 /* SLSettingTableViewCell.m in Sources */,
-				0418142D1AFA1C2F0014A032 /* SLMeTBHeader.m in Sources */,
+				048FFED91AFDB940007FAA8D /* SLMeTBHeader.m in Sources */,
+				048FFEF61AFDBD4A007FAA8D /* SLMeZSJJRGLViewController.m in Sources */,
 				0418141D1AF9FB0B0014A032 /* SLVillageViewController.m in Sources */,
 				0403CE061AFAF1D300A66381 /* SLLoginViewController.m in Sources */,
 				041814291AF9FF9D0014A032 /* SLGuardTableViewController.m in Sources */,
 				041814231AF9FB890014A032 /* SLOrientationTableViewController.m in Sources */,
+				0400AD1A1AFDD32100A8A98A /* SLMeQBViewController.m in Sources */,
+				0400AD1F1AFDD3E500A8A98A /* SLMeYYViewController.m in Sources */,
 				041814011AF9EA860014A032 /* SLFindManageViewController.m in Sources */,
 				043A1D121AF79EA900E415BF /* SLTabBarViewController.m in Sources */,
 				049939441AFB8D7900015AE9 /* SLStartSellVillageNameView.m in Sources */,
 				041813F71AF9E4470014A032 /* SLStartSellHouseViewController.m in Sources */,
+				0400AD291AFDD40900A8A98A /* SLMePJViewController.m in Sources */,
+				0400AD181AFDD32100A8A98A /* SLMeFYSCViewController.m in Sources */,
 				041813FC1AF9EA480014A032 /* SLFindHousePriceViewController.m in Sources */,
 				043A1CCE1AF7970400E415BF /* SLBuyHouseViewController.m in Sources */,
 				043A1C941AF78E7500E415BF /* MyProjectFDD.xcdatamodeld in Sources */,
+				0400AD2E1AFDD87200A8A98A /* SLMePJHelpViewController.m in Sources */,
 				043A1C911AF78E7500E415BF /* AppDelegate.m in Sources */,
 				043A1D161AF7A1DF00E415BF /* SLTabBarItemButton.m in Sources */,
+				0410786D1AFDB23A00E56E30 /* SLNearbyShopViewController.m in Sources */,
 				043A1CC91AF796EB00E415BF /* SLSellHouseViewController.m in Sources */,
 				041814201AF9FB670014A032 /* SLTypeTableViewController.m in Sources */,
 				043A1D0F1AF79B4F00E415BF /* SLNavigationController.m in Sources */,
+				0400AD161AFDD32100A8A98A /* SLMeDDHViewController.m in Sources */,
 				043A1C8E1AF78E7500E415BF /* main.m in Sources */,
 				043A1CD81AF7972200E415BF /* SLSettingViewController.m in Sources */,
-				043A1CD31AF7971400E415BF /* SLMeViewController.m in Sources */,
+				0410785B1AFD93C000E56E30 /* SLNextHeaderView.m in Sources */,
+				048FFEDB1AFDB940007FAA8D /* SLMeViewController.m in Sources */,
+				048FFEF11AFDBD39007FAA8D /* SLMeJJRKFRLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

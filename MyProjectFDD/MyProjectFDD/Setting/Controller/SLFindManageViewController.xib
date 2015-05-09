@@ -13,7 +13,59 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TrE-ve-281">
+                    <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aow-U0-cnp" userLabel="中分线">
+                            <rect key="frame" x="299" y="5" width="2" height="34"/>
+                            <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="2" id="6sn-VK-0em"/>
+                                <constraint firstAttribute="height" constant="34" id="Tqv-Vr-gVl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HwA-Ip-koZ">
+                            <rect key="frame" x="0.0" y="7" width="299" height="30"/>
+                            <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="15"/>
+                            <state key="normal" title="附近">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCc-ce-EGi">
+                            <rect key="frame" x="301" y="7" width="299" height="30"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                            <color key="tintColor" red="1" green="0.32071360310000002" blue="0.2225215156" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="经纪公司">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="08A-3c-6B8"/>
+                        <constraint firstAttribute="bottom" secondItem="wCc-ce-EGi" secondAttribute="bottom" constant="7" id="5JN-E8-Wea"/>
+                        <constraint firstItem="Aow-U0-cnp" firstAttribute="top" secondItem="TrE-ve-281" secondAttribute="top" constant="5" id="75Y-yA-VgZ"/>
+                        <constraint firstItem="Aow-U0-cnp" firstAttribute="leading" secondItem="HwA-Ip-koZ" secondAttribute="trailing" id="H14-HL-iD8"/>
+                        <constraint firstItem="HwA-Ip-koZ" firstAttribute="leading" secondItem="TrE-ve-281" secondAttribute="leading" id="JRn-FN-eVc"/>
+                        <constraint firstItem="HwA-Ip-koZ" firstAttribute="top" secondItem="TrE-ve-281" secondAttribute="top" constant="7" id="Jo4-t3-2YM"/>
+                        <constraint firstAttribute="bottom" secondItem="HwA-Ip-koZ" secondAttribute="bottom" constant="7" id="NR7-PY-LVe"/>
+                        <constraint firstAttribute="bottom" secondItem="Aow-U0-cnp" secondAttribute="bottom" constant="5" id="Yv2-BY-Ahl"/>
+                        <constraint firstAttribute="trailing" secondItem="wCc-ce-EGi" secondAttribute="trailing" id="bTL-d6-hg7"/>
+                        <constraint firstAttribute="centerX" secondItem="Aow-U0-cnp" secondAttribute="centerX" id="pc3-cF-kC6"/>
+                        <constraint firstItem="wCc-ce-EGi" firstAttribute="top" secondItem="TrE-ve-281" secondAttribute="top" constant="7" id="qqp-oc-wJr"/>
+                        <constraint firstItem="wCc-ce-EGi" firstAttribute="leading" secondItem="Aow-U0-cnp" secondAttribute="trailing" id="s1j-xt-afr"/>
+                    </constraints>
+                </view>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="TrE-ve-281" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="Vhj-KR-g2n"/>
+                <constraint firstItem="TrE-ve-281" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bpB-Tv-m6J"/>
+                <constraint firstAttribute="trailing" secondItem="TrE-ve-281" secondAttribute="trailing" id="buP-ED-fBW"/>
+            </constraints>
         </view>
     </objects>
 </document>

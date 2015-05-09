@@ -33,8 +33,6 @@
 
     self.navigationItem.leftBarButtonItem = [SLUIFactory createImageBBIWithImage:[UIImage imageNamed:@"nav_xiaoxi"] target:self action:nil];
     
-    
-    
 }
 
 

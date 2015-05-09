@@ -11,9 +11,11 @@
 #import "SLGlobalDefine.h"
 #import "SLStartSellVillageNameView.h"
 
+#import "SLNextButtonClickViewController.h"
 
 @interface SLStartSellHouseViewController ()<UIPickerViewDataSource,UIPickerViewDelegate>
 {
+
     //城市按钮是否点击
     BOOL isCityButtonClick;
     
@@ -25,13 +27,42 @@
     
     //城市数据
     NSArray *cityArr;
+    
+    //户型上半部
+    UIView *upView;
+    
+    //户型下半部
+    UIView *downView;
+    
+    //保存户型
+    NSString *villageTypeStr;
+    
+    NSInteger shi;
+    NSInteger ting;
+    NSInteger wei;
 }
+
+//保存下一步按钮的底部约束
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *nextButtonConstraint;
+
 @end
 
 @implementation SLStartSellHouseViewController
 
+//移除通知
+-(void)dealloc
+{
+    // 移除通知
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillHideNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // 键盘弹起的通知
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
     
     self.title = @"发布房源";
     
@@ -39,6 +70,32 @@
     
     //初始化城市列表
     [self initCityListView];
+}
+
+#pragma mark -键盘弹起
+- (void)keyboardWillShow:(NSNotification *)notification
+{
+    CGFloat keyboardHeight = [notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue].size.height;
+    
+    [UIView animateWithDuration:0.25 animations:^{
+        
+        self.nextButtonConstraint.constant = keyboardHeight;
+        [self.view layoutIfNeeded];
+    }];
+}
+
+#pragma mark -键盘消失
+- (void)keyboardWillHide:(NSNotification *)notification
+{
+    [UIView animateWithDuration:0.25 animations:^{
+        self.nextButtonConstraint.constant = 0;
+    }];
+}
+
+//取消键盘编辑
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
 }
 
 #pragma mark - Helper Methods
@@ -88,7 +145,48 @@
 }
 
 
-#pragma mark - 跳转
+//获取选择户型
+-(void)initVillageType
+{
+    //上半部灰色
+    upView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT-216-44)];
+    upView.backgroundColor = [UIColor lightGrayColor];
+    upView.alpha = 0.8;
+    upView.clipsToBounds = YES;
+    //增加手势
+    upView.userInteractionEnabled = YES;
+    UITapGestureRecognizer *ges = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hideVillageTypeView)];
+    [upView addGestureRecognizer:ges];
+    
+    
+    [self.navigationController.view addSubview:upView];
+    
+    downView = [[UIView alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT-216-44, SCREEN_WIDTH, 216+44)];
+    downView.backgroundColor = [UIColor whiteColor];
+    downView.clipsToBounds = YES;
+    
+    UIToolbar *toolBar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 44)];
+    toolBar.backgroundColor = [UIColor whiteColor];
+    UIBarButtonItem *lefttem=[[UIBarButtonItem alloc] initWithTitle:@"设置户型" style:UIBarButtonItemStyleDone target:self action:nil];
+    
+    UIBarButtonItem *centerSpace=[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:self action:nil];
+    
+    UIBarButtonItem *right=[[UIBarButtonItem alloc] initWithTitle:@"完成" style:UIBarButtonItemStylePlain target:self action:@selector(doneClick)];
+    toolBar.items=@[lefttem,centerSpace,right];
+    [downView addSubview:toolBar];
+    
+    //选择器
+    UIPickerView *pickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0, 44, SCREEN_WIDTH, 216)];
+    pickerView.backgroundColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:1.0];
+    pickerView.delegate = self;
+    pickerView.dataSource = self;
+    pickerView.showsSelectionIndicator = YES;
+    
+    [downView addSubview:pickerView];
+    [self.navigationController.view addSubview:downView];
+}
+
+#pragma mark - 返回
 
 -(void)blackViewController
 {
@@ -106,7 +204,7 @@
     [self animationHideOrShowListView:isCityButtonClick];
 }
 
-//隐藏或者显示
+//隐藏或者显示城市按钮
 - (void)animationHideOrShowListView:(BOOL)isCityButtonClick
 {
     CGRect frame = cityListView.frame;
@@ -121,6 +219,22 @@
         cityListView.frame = frame;
     }];
 }
+
+//隐藏户型视图
+-(void)hideVillageTypeView
+{
+    CGRect frameUp = upView.frame;
+    frameUp.size.height = 0;
+    
+    CGRect frameDown = downView.frame;
+    frameDown.size.height = 0;
+    
+    [UIView animateWithDuration:0.1 animations:^{
+        upView.frame = frameUp;
+        downView.frame = frameDown;
+    }];
+}
+
 
 //城市列表按钮点击
 -(void)cityListButtonClick:(UIButton *)button
@@ -147,12 +261,19 @@
 
 //点击户型
 - (IBAction)typeButtonClick:(id)sender {
-    //选择器
-    UIPickerView *pickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT - 216, SCREEN_WIDTH, 216)];
-    pickerView.backgroundColor = [UIColor whiteColor];
-    pickerView.delegate = self;
-    pickerView.dataSource = self;
-    [self.view addSubview:pickerView];
+    
+    [self initVillageType];
+    
+}
+
+
+//点击下一步
+- (IBAction)nextButtonClick:(id)sender {
+    
+    SLNextButtonClickViewController *nextVC = [[SLNextButtonClickViewController alloc] init];
+    
+    [self.navigationController pushViewController:nextVC animated:YES];
+    
 }
 
 #pragma mark -UIPickerViewdataSource
@@ -185,22 +306,45 @@
     return [NSString stringWithFormat:@"%ld卫",row];
 }
 
+//选中完成
+-(void)doneClick
+{
+    if (![self.typeButton.titleLabel.text isEqualToString:@""]) {
+        [self.typeButton setTitle:villageTypeStr forState:UIControlStateNormal];
+    }else
+    {
+        [self.typeButton setTitle:@"选择户型" forState:UIControlStateNormal];
+    }
+
+    [self hideVillageTypeView];
+}
+
+
 //选中了某行
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
-    NSInteger shi;
-    NSInteger ting;
-    NSInteger wei;
+
     if (component == 0) {
+        
         shi = row+1;
-    }else if (component == 1){
-        ting = row+1;
-    }else{
-        wei = row+1;
     }
     
-    [self.typeButton setTitle:nil forState:UIControlStateNormal];
-    [self.typeButton setTitle:[NSString stringWithFormat:@"%ld室%ld厅%ld卫",shi,ting,wei] forState:UIControlStateNormal];
+    if (component == 1){
+        
+        ting = row;
+    }
+    
+    if (component == 2) {
+        
+        wei = row;
+    }
+    
+//    NSLog(@"component:%ld row :%ld",component,row);
+//    NSLog(@"shi:%ld ting :%ld wei:%ld",shi,ting,wei);
+    
+    villageTypeStr = nil;
+    villageTypeStr = [NSString stringWithFormat:@"%ld室%ld厅%ld卫",shi,ting,wei];
+    
 }
 
 

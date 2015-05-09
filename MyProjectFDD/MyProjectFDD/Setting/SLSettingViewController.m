@@ -34,7 +34,6 @@
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-    
     self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
     self.title = @"更多";
     

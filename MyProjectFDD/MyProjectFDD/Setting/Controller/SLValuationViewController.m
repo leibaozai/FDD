@@ -7,6 +7,8 @@
 //
 
 #import "SLValuationViewController.h"
+#import "SLStartSellHouseViewController.h"
+#import "SLUIFactory.h"
 
 @interface SLValuationViewController ()
 
@@ -16,22 +18,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    self.title = @"估价";
+    
+    self.navigationItem.leftBarButtonItems = [SLUIFactory createBackBBIArrayWithTarget:self action:@selector(blackViewController)];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - 返回
+
+-(void)blackViewController
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+//添加估计房源
+- (IBAction)addValuationHouse:(id)sender {
+    
+    SLStartSellHouseViewController *startVC = [[SLStartSellHouseViewController alloc] init];
+    [self.navigationController pushViewController:startVC animated:YES];
 }
-*/
+
+
 
 @end

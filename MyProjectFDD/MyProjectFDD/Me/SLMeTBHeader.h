@@ -12,11 +12,23 @@
  “我”页面tableView的表头视图控制器
  */
 @interface SLMeTBHeader : UIViewController
+
+//容器
 @property (strong, nonatomic) IBOutlet UIView *headerView;
+
+//登录
 @property (strong, nonatomic) IBOutlet UIButton *loginButton;
+
+//通话
 @property (strong, nonatomic) IBOutlet UIButton *phoneButton;
+
+//预约
 @property (strong, nonatomic) IBOutlet UIButton *orderButton;
+
+//订单
 @property (strong, nonatomic) IBOutlet UIButton *indentButton;
+
+//评价
 @property (strong, nonatomic) IBOutlet UIButton *evaluateButton;
 
 

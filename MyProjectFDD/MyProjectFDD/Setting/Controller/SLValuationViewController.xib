@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SLValuationViewController">
@@ -13,7 +13,43 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shouye_gujia.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Ai-qr-5cr">
+                    <rect key="frame" x="0.0" y="64" width="600" height="190"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="190" id="Y4l-RV-zUT"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAm-CI-Y6a">
+                    <rect key="frame" x="200" y="294" width="200" height="110"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="NLF-uv-P5M"/>
+                        <constraint firstAttribute="height" constant="110" id="X6d-Sl-pC4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="13"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="50" maxX="60" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="69" minY="0.0" maxX="0.0" maxY="35"/>
+                    <state key="normal" title="添加估价房源" image="shouye_tianjia.png">
+                        <color key="titleColor" red="1" green="0.32071360310000002" blue="0.2225215156" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="addValuationHouse:" destination="-1" eventType="touchUpInside" id="DPQ-oy-zLx"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="6Ai-qr-5cr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="LLr-h6-ZCB"/>
+                <constraint firstItem="6Ai-qr-5cr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="S8B-UF-vI1"/>
+                <constraint firstAttribute="trailing" secondItem="6Ai-qr-5cr" secondAttribute="trailing" id="ZLm-qs-lCn"/>
+                <constraint firstItem="kAm-CI-Y6a" firstAttribute="top" secondItem="6Ai-qr-5cr" secondAttribute="bottom" constant="40" id="cdt-X6-DoY"/>
+                <constraint firstAttribute="centerX" secondItem="kAm-CI-Y6a" secondAttribute="centerX" id="ptD-MS-cGG"/>
+            </constraints>
+            <point key="canvasLocation" x="144" y="149"/>
         </view>
     </objects>
+    <resources>
+        <image name="shouye_gujia.png" width="320" height="190"/>
+        <image name="shouye_tianjia.png" width="62" height="62"/>
+    </resources>
 </document>

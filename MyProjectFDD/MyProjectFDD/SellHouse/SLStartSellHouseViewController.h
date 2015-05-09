@@ -56,7 +56,8 @@
 //点击户型
 - (IBAction)typeButtonClick:(id)sender;
 
-
+//点击下一步
+- (IBAction)nextButtonClick:(id)sender;
 
 
 
