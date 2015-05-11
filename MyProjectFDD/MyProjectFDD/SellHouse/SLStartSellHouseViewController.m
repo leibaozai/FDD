@@ -161,10 +161,12 @@
     
     [self.navigationController.view addSubview:upView];
     
+    //下半部
     downView = [[UIView alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT-216-44, SCREEN_WIDTH, 216+44)];
     downView.backgroundColor = [UIColor whiteColor];
     downView.clipsToBounds = YES;
     
+    //设置户型--完成
     UIToolbar *toolBar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 44)];
     toolBar.backgroundColor = [UIColor whiteColor];
     UIBarButtonItem *lefttem=[[UIBarButtonItem alloc] initWithTitle:@"设置户型" style:UIBarButtonItemStyleDone target:self action:nil];

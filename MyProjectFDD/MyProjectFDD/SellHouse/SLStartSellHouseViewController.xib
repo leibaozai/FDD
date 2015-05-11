@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <objects>
@@ -12,6 +13,7 @@
                 <outlet property="cityButton" destination="Scu-hQ-myD" id="0vr-tg-OhG"/>
                 <outlet property="floorTextField" destination="qJP-Qe-NmV" id="wOw-I2-Gnk"/>
                 <outlet property="nextButtonConstraint" destination="0kj-EC-E1Y" id="aHF-b5-pmv"/>
+                <outlet property="orientationView" destination="CqV-DT-3FO" id="RTY-Cp-EA3"/>
                 <outlet property="roomTextField" destination="p6M-zF-oaK" id="dpY-ve-jbJ"/>
                 <outlet property="typeButton" destination="vGO-91-saG" id="DVf-X9-ErQ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>

@@ -24,6 +24,7 @@
 
 
 //朝向
+@property (strong, nonatomic) IBOutlet UIView *orientationView;
 
 
 //面积

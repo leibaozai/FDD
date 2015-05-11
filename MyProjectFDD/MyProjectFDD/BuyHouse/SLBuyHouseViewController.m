@@ -9,6 +9,9 @@
 #import "SLBuyHouseViewController.h"
 #import "SLUIFactory.h"
 #import "SLCityListTableViewController.h"
+#import "SLBuyHouseSearchViewController.h"
+#import "SLGlobalDefine.h"
+#import "AFNetworking.h"
 
 #import <MapKit/MapKit.h>
 
@@ -91,7 +94,7 @@
     self.navigationItem.rightBarButtonItems = @[titleBBI,imageBBI];
 }
 
-//详情列表
+#pragma mark -详情列表(tableView)
 -(void)detailList
 {
     _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height - 64 - 49)];
@@ -105,6 +108,9 @@
     
    UISegmentedControl *segmentControl = [[UISegmentedControl alloc] initWithItems:@[@"二手房", @"新房"]];
     segmentControl.frame = CGRectMake(headerView.frame.size.width/2-120, 10, 240, 30);
+    segmentControl.selectedSegmentIndex = 0;
+    segmentControl.backgroundColor = [UIColor whiteColor];
+    segmentControl.tintColor = THEME_COLOR;
     [segmentControl addTarget:self action:@selector(tableViewChange:) forControlEvents:UIControlEventValueChanged];
     
     [headerView addSubview:segmentControl];
@@ -114,7 +120,48 @@
     _tableView.autoresizesSubviews = NO;
     //注册cell
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    
+    //数据请求
+    [self requestDataFromNetWork:nil];
 }
+
+#pragma mark -数据请求
+-(void)requestDataFromNetWork:(id)sender
+{
+    NSString *urlStr = @"http://app.sh.fangdd.com/v3.0.0/house/buyer/map_search_house_list";
+    
+    urlStr = SECOND_HAND_HOUSE_URL;
+    
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    
+    [manager.requestSerializer.mutableHTTPRequestHeaders setValue:@"100020" forKey:@"platformVersion"];
+    [manager.requestSerializer.mutableHTTPRequestHeaders setValue:@"1337" forKey:@"cityId"];
+    [manager.requestSerializer.mutableHTTPRequestHeaders setValue:@"6" forKey:@"platform"];
+    [manager.requestSerializer.mutableHTTPRequestHeaders setValue:@"398d64daf185c10e99d3ff84091d0dce" forKey:@"data_token"];
+    [manager.requestSerializer.mutableHTTPRequestHeaders setValue:@"1" forKey:@"businessType"];
+
+    [manager POST:urlStr parameters:@{@"data":@"F942DBC528294564D4623BFF52C18D191353AE4B3B508CDB197CAF44F7DFE1BA20A40F7FFF0AE2E224345154BEB2EAF997828FE59705D893A188E625698D01C3DB8018A5E75A886F0405A451F9EB480AF8F2EA37A5A4F74138A5F7119BDEA61D57FDA28E2B19C248908EF980CAA6B74AA157FD75F2A50B201359389D165BB9347EA57DF8038263D216CA0F635FD7003A154B78FD4F946DB68A5DF136ECE25B6B1B934BA5B10516E7D1C83AE44236BF4B0471EAC7890D34D16D6D58484C9D1A57DF838A56A1DB6CBF011E3964F2C284B198CD3F08D8E594BF053D828E74BFC626EE49368DFEB75D05D495EFEB35CF42C7D6D4F4267BDDA2FA6338925B6998ABDC33A3483FD986AEDBE9F4F47343E481FD634DD21E7FD085C359C4CC6A806B68DA8879B1A9FEEC18B7BDE36435DD4BCEF4"} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+//        NSString *str = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
+//        NSLog(@"success:%@",str);
+        
+        //解析数据
+        NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
+        
+        //NSLog(@"%@",dict[@"1"][@"str"]);
+        
+        NSArray *arr = dict[@"3"][@"lst"];
+        NSLog(@"%@",arr[0]);
+        NSLog(@"%@",arr[1]);
+        
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"failure:%@",error);
+    }];
+    
+}
+
 
 //详情地图
 -(void)detailMap
@@ -150,14 +197,11 @@
     [self.view addSubview:_mapView];
 }
 
-#pragma mark - Event Handlers
-
-//点击segmentController切换tableView
+#pragma mark -点击segmentController切换tableView
 -(void)tableViewChange:(UISegmentedControl *)sender
 {
     
 }
-
 
 //点击切换描述
 - (IBAction)btnClick:(UIButton *)sender
@@ -167,37 +211,31 @@
         
         [sender setTitle:@"全部房源" forState:UIControlStateNormal];
         self.describeLable.text = @"全城共232套新房";
-        
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//            sender.titleLabel.text = @"全部房源";
-//            self.describeLable.text = @"全城共232套新房";
-//        });
 
     }else {
         [sender setTitle:@"只看新房" forState:UIControlStateNormal];
         self.describeLable.text = @"全城共29117套二手房,232套新房";
         
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//            sender.titleLabel.text = @"只看新房";
-//            self.describeLable.text = @"全城共29117套二手房,232套新房";
-//            
-//        });
     }
 }
 
-//搜索
+#pragma mark -搜索
 -(void)ImageBBIClick
 {
+    SLBuyHouseSearchViewController *searchVC = [[SLBuyHouseSearchViewController alloc] init];
     
+    searchVC.hidesBottomBarWhenPushed = YES;
+    
+    [self.navigationController pushViewController:searchVC animated:YES];
 }
 
-//点击列表
+#pragma mark -点击列表(地图)
 -(void)titleBBIClick
 {
     if ([titleBBI.title isEqualToString:@"列表"]) {
         titleBBI.title = @"地图";
         
-        //UITableView *tableV = [self.view viewWithTag:2];
+        //移除地图
         [_mapView removeFromSuperview];
         [self detailList];
     }

@@ -21,6 +21,17 @@
 		0400AD2A1AFDD40900A8A98A /* SLMePJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD281AFDD40900A8A98A /* SLMePJViewController.xib */; };
 		0400AD2E1AFDD87200A8A98A /* SLMePJHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400AD2C1AFDD87200A8A98A /* SLMePJHelpViewController.m */; };
 		0400AD2F1AFDD87200A8A98A /* SLMePJHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD2D1AFDD87200A8A98A /* SLMePJHelpViewController.xib */; };
+		0400AD331AFE079800A8A98A /* SLBuyHouseSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400AD311AFE079800A8A98A /* SLBuyHouseSearchViewController.m */; };
+		0400AD341AFE079800A8A98A /* SLBuyHouseSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD321AFE079800A8A98A /* SLBuyHouseSearchViewController.xib */; };
+		0400AD3F1AFE0BAD00A8A98A /* nav_sousuo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD361AFE0BAD00A8A98A /* nav_sousuo.png */; };
+		0400AD401AFE0BAD00A8A98A /* nav_sousuo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD371AFE0BAD00A8A98A /* nav_sousuo@2x.png */; };
+		0400AD411AFE0BAD00A8A98A /* nav_sousuo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD381AFE0BAD00A8A98A /* nav_sousuo@3x.png */; };
+		0400AD421AFE0BAD00A8A98A /* nav_sousuo_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD391AFE0BAD00A8A98A /* nav_sousuo_s.png */; };
+		0400AD431AFE0BAD00A8A98A /* nav_sousuo_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD3A1AFE0BAD00A8A98A /* nav_sousuo_s@2x.png */; };
+		0400AD441AFE0BAD00A8A98A /* nav_sousuo_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD3B1AFE0BAD00A8A98A /* nav_sousuo_s@3x.png */; };
+		0400AD451AFE0BAD00A8A98A /* sousuo012@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD3C1AFE0BAD00A8A98A /* sousuo012@2x.png */; };
+		0400AD461AFE0BAD00A8A98A /* sousuo01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD3D1AFE0BAD00A8A98A /* sousuo01@2x.png */; };
+		0400AD471AFE0BAD00A8A98A /* sousuo_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400AD3E1AFE0BAD00A8A98A /* sousuo_s@2x.png */; };
 		0403CE061AFAF1D300A66381 /* SLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403CE041AFAF1D300A66381 /* SLLoginViewController.m */; };
 		0403CE071AFAF1D300A66381 /* SLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0403CE051AFAF1D300A66381 /* SLLoginViewController.xib */; };
 		04052DBE1AF8810700AEE27A /* SLUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04052DBD1AF8810700AEE27A /* SLUIFactory.m */; };
@@ -237,6 +248,25 @@
 		048FFF121AFDD212007FAA8D /* SLMeTHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048FFF101AFDD212007FAA8D /* SLMeTHViewController.xib */; };
 		049939441AFB8D7900015AE9 /* SLStartSellVillageNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049939421AFB8D7900015AE9 /* SLStartSellVillageNameView.m */; };
 		049939451AFB8D7900015AE9 /* SLStartSellVillageNameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049939431AFB8D7900015AE9 /* SLStartSellVillageNameView.xib */; };
+		049A28581AFF26DD005C5A3F /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A28461AFF26DD005C5A3F /* AFHTTPRequestOperation.m */; };
+		049A28591AFF26DD005C5A3F /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A28481AFF26DD005C5A3F /* AFHTTPRequestOperationManager.m */; };
+		049A285A1AFF26DD005C5A3F /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A284A1AFF26DD005C5A3F /* AFHTTPSessionManager.m */; };
+		049A285B1AFF26DD005C5A3F /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A284D1AFF26DD005C5A3F /* AFNetworkReachabilityManager.m */; };
+		049A285C1AFF26DD005C5A3F /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A284F1AFF26DD005C5A3F /* AFSecurityPolicy.m */; };
+		049A285D1AFF26DD005C5A3F /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A28511AFF26DD005C5A3F /* AFURLConnectionOperation.m */; };
+		049A285E1AFF26DD005C5A3F /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A28531AFF26DD005C5A3F /* AFURLRequestSerialization.m */; };
+		049A285F1AFF26DD005C5A3F /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A28551AFF26DD005C5A3F /* AFURLResponseSerialization.m */; };
+		049A28601AFF26DD005C5A3F /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A28571AFF26DD005C5A3F /* AFURLSessionManager.m */; };
+		049A28741AFF270B005C5A3F /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A28631AFF270B005C5A3F /* AFNetworkActivityIndicatorManager.m */; };
+		049A28751AFF270B005C5A3F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 049A28641AFF270B005C5A3F /* README.md */; };
+		049A28761AFF270B005C5A3F /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A28661AFF270B005C5A3F /* UIActivityIndicatorView+AFNetworking.m */; };
+		049A28771AFF270B005C5A3F /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A28681AFF270B005C5A3F /* UIAlertView+AFNetworking.m */; };
+		049A28781AFF270B005C5A3F /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A286A1AFF270B005C5A3F /* UIButton+AFNetworking.m */; };
+		049A28791AFF270B005C5A3F /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A286C1AFF270B005C5A3F /* UIImageView+AFNetworking.m */; };
+		049A287A1AFF270B005C5A3F /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A286F1AFF270B005C5A3F /* UIProgressView+AFNetworking.m */; };
+		049A287B1AFF270B005C5A3F /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A28711AFF270B005C5A3F /* UIRefreshControl+AFNetworking.m */; };
+		049A287C1AFF270B005C5A3F /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A28731AFF270B005C5A3F /* UIWebView+AFNetworking.m */; };
+		049A28801AFF69F2005C5A3F /* SLCityListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A287F1AFF69F2005C5A3F /* SLCityListModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -271,6 +301,18 @@
 		0400AD2B1AFDD87200A8A98A /* SLMePJHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMePJHelpViewController.h; sourceTree = "<group>"; };
 		0400AD2C1AFDD87200A8A98A /* SLMePJHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMePJHelpViewController.m; sourceTree = "<group>"; };
 		0400AD2D1AFDD87200A8A98A /* SLMePJHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMePJHelpViewController.xib; sourceTree = "<group>"; };
+		0400AD301AFE079800A8A98A /* SLBuyHouseSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLBuyHouseSearchViewController.h; path = MyProjectFDD/BuyHouse/SLBuyHouseSearchViewController.h; sourceTree = SOURCE_ROOT; };
+		0400AD311AFE079800A8A98A /* SLBuyHouseSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLBuyHouseSearchViewController.m; path = MyProjectFDD/BuyHouse/SLBuyHouseSearchViewController.m; sourceTree = SOURCE_ROOT; };
+		0400AD321AFE079800A8A98A /* SLBuyHouseSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SLBuyHouseSearchViewController.xib; path = MyProjectFDD/BuyHouse/SLBuyHouseSearchViewController.xib; sourceTree = SOURCE_ROOT; };
+		0400AD361AFE0BAD00A8A98A /* nav_sousuo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_sousuo.png; sourceTree = "<group>"; };
+		0400AD371AFE0BAD00A8A98A /* nav_sousuo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_sousuo@2x.png"; sourceTree = "<group>"; };
+		0400AD381AFE0BAD00A8A98A /* nav_sousuo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_sousuo@3x.png"; sourceTree = "<group>"; };
+		0400AD391AFE0BAD00A8A98A /* nav_sousuo_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_sousuo_s.png; sourceTree = "<group>"; };
+		0400AD3A1AFE0BAD00A8A98A /* nav_sousuo_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_sousuo_s@2x.png"; sourceTree = "<group>"; };
+		0400AD3B1AFE0BAD00A8A98A /* nav_sousuo_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_sousuo_s@3x.png"; sourceTree = "<group>"; };
+		0400AD3C1AFE0BAD00A8A98A /* sousuo012@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sousuo012@2x.png"; sourceTree = "<group>"; };
+		0400AD3D1AFE0BAD00A8A98A /* sousuo01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sousuo01@2x.png"; sourceTree = "<group>"; };
+		0400AD3E1AFE0BAD00A8A98A /* sousuo_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sousuo_s@2x.png"; sourceTree = "<group>"; };
 		0403CE031AFAF1D300A66381 /* SLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLLoginViewController.h; sourceTree = "<group>"; };
 		0403CE041AFAF1D300A66381 /* SLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLLoginViewController.m; sourceTree = "<group>"; };
 		0403CE051AFAF1D300A66381 /* SLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLLoginViewController.xib; sourceTree = "<group>"; };
@@ -526,6 +568,45 @@
 		049939411AFB8D7900015AE9 /* SLStartSellVillageNameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLStartSellVillageNameView.h; path = MyProjectFDD/SellHouse/SLStartSellVillageNameView.h; sourceTree = SOURCE_ROOT; };
 		049939421AFB8D7900015AE9 /* SLStartSellVillageNameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLStartSellVillageNameView.m; path = MyProjectFDD/SellHouse/SLStartSellVillageNameView.m; sourceTree = SOURCE_ROOT; };
 		049939431AFB8D7900015AE9 /* SLStartSellVillageNameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SLStartSellVillageNameView.xib; path = MyProjectFDD/SellHouse/SLStartSellVillageNameView.xib; sourceTree = SOURCE_ROOT; };
+		049A28451AFF26DD005C5A3F /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		049A28461AFF26DD005C5A3F /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		049A28471AFF26DD005C5A3F /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		049A28481AFF26DD005C5A3F /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		049A28491AFF26DD005C5A3F /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		049A284A1AFF26DD005C5A3F /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		049A284B1AFF26DD005C5A3F /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		049A284C1AFF26DD005C5A3F /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		049A284D1AFF26DD005C5A3F /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		049A284E1AFF26DD005C5A3F /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		049A284F1AFF26DD005C5A3F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		049A28501AFF26DD005C5A3F /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		049A28511AFF26DD005C5A3F /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		049A28521AFF26DD005C5A3F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		049A28531AFF26DD005C5A3F /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		049A28541AFF26DD005C5A3F /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		049A28551AFF26DD005C5A3F /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		049A28561AFF26DD005C5A3F /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		049A28571AFF26DD005C5A3F /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		049A28621AFF270B005C5A3F /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		049A28631AFF270B005C5A3F /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		049A28641AFF270B005C5A3F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		049A28651AFF270B005C5A3F /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		049A28661AFF270B005C5A3F /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		049A28671AFF270B005C5A3F /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		049A28681AFF270B005C5A3F /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		049A28691AFF270B005C5A3F /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		049A286A1AFF270B005C5A3F /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		049A286B1AFF270B005C5A3F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		049A286C1AFF270B005C5A3F /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		049A286D1AFF270B005C5A3F /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		049A286E1AFF270B005C5A3F /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		049A286F1AFF270B005C5A3F /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		049A28701AFF270B005C5A3F /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		049A28711AFF270B005C5A3F /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		049A28721AFF270B005C5A3F /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		049A28731AFF270B005C5A3F /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		049A287E1AFF69F2005C5A3F /* SLCityListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLCityListModel.h; path = MyProjectFDD/BuyHouse/Model/SLCityListModel.h; sourceTree = SOURCE_ROOT; };
+		049A287F1AFF69F2005C5A3F /* SLCityListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLCityListModel.m; path = MyProjectFDD/BuyHouse/Model/SLCityListModel.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -560,6 +641,22 @@
 				0400AD151AFDD32100A8A98A /* SLMeQBViewController.xib */,
 			);
 			path = Section01;
+			sourceTree = "<group>";
+		};
+		0400AD351AFE0BAD00A8A98A /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				0400AD361AFE0BAD00A8A98A /* nav_sousuo.png */,
+				0400AD371AFE0BAD00A8A98A /* nav_sousuo@2x.png */,
+				0400AD381AFE0BAD00A8A98A /* nav_sousuo@3x.png */,
+				0400AD391AFE0BAD00A8A98A /* nav_sousuo_s.png */,
+				0400AD3A1AFE0BAD00A8A98A /* nav_sousuo_s@2x.png */,
+				0400AD3B1AFE0BAD00A8A98A /* nav_sousuo_s@3x.png */,
+				0400AD3C1AFE0BAD00A8A98A /* sousuo012@2x.png */,
+				0400AD3D1AFE0BAD00A8A98A /* sousuo01@2x.png */,
+				0400AD3E1AFE0BAD00A8A98A /* sousuo_s@2x.png */,
+			);
+			path = "搜索";
 			sourceTree = "<group>";
 		};
 		04052DBF1AF8821600AEE27A /* navgation */ = {
@@ -983,11 +1080,15 @@
 		043A1CBE1AF7938200E415BF /* BuyHouse */ = {
 			isa = PBXGroup;
 			children = (
+				049A287D1AFF69C7005C5A3F /* Model */,
 				043A1CCB1AF7970400E415BF /* SLBuyHouseViewController.h */,
 				043A1CCC1AF7970400E415BF /* SLBuyHouseViewController.m */,
+				043A1CCD1AF7970400E415BF /* SLBuyHouseViewController.xib */,
+				0400AD301AFE079800A8A98A /* SLBuyHouseSearchViewController.h */,
+				0400AD311AFE079800A8A98A /* SLBuyHouseSearchViewController.m */,
+				0400AD321AFE079800A8A98A /* SLBuyHouseSearchViewController.xib */,
 				0449F9CE1AF8C8A200A5A2A2 /* SLCityListTableViewController.h */,
 				0449F9CF1AF8C8A200A5A2A2 /* SLCityListTableViewController.m */,
-				043A1CCD1AF7970400E415BF /* SLBuyHouseViewController.xib */,
 			);
 			name = BuyHouse;
 			path = SellHourse;
@@ -1034,6 +1135,8 @@
 		043A1CDA1AF798E600E415BF /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				049A28611AFF26FD005C5A3F /* UIKit+AFNetworking */,
+				049A28441AFF26AE005C5A3F /* AFNetworking */,
 			);
 			name = Libraries;
 			path = MyProjectFDD/Frameworks/Libraries;
@@ -1042,6 +1145,7 @@
 		043A1CDB1AF798E600E415BF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0400AD351AFE0BAD00A8A98A /* 搜索 */,
 				0410786F1AFDB36700E56E30 /* 附近门店 */,
 				0410785C1AFD9DB900E56E30 /* 更多-估价 */,
 				04317CA01AFCD366009D000A /* 发布房源 */,
@@ -1175,6 +1279,67 @@
 			name = Header;
 			sourceTree = "<group>";
 		};
+		049A28441AFF26AE005C5A3F /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				049A28451AFF26DD005C5A3F /* AFHTTPRequestOperation.h */,
+				049A28461AFF26DD005C5A3F /* AFHTTPRequestOperation.m */,
+				049A28471AFF26DD005C5A3F /* AFHTTPRequestOperationManager.h */,
+				049A28481AFF26DD005C5A3F /* AFHTTPRequestOperationManager.m */,
+				049A28491AFF26DD005C5A3F /* AFHTTPSessionManager.h */,
+				049A284A1AFF26DD005C5A3F /* AFHTTPSessionManager.m */,
+				049A284B1AFF26DD005C5A3F /* AFNetworking.h */,
+				049A284C1AFF26DD005C5A3F /* AFNetworkReachabilityManager.h */,
+				049A284D1AFF26DD005C5A3F /* AFNetworkReachabilityManager.m */,
+				049A284E1AFF26DD005C5A3F /* AFSecurityPolicy.h */,
+				049A284F1AFF26DD005C5A3F /* AFSecurityPolicy.m */,
+				049A28501AFF26DD005C5A3F /* AFURLConnectionOperation.h */,
+				049A28511AFF26DD005C5A3F /* AFURLConnectionOperation.m */,
+				049A28521AFF26DD005C5A3F /* AFURLRequestSerialization.h */,
+				049A28531AFF26DD005C5A3F /* AFURLRequestSerialization.m */,
+				049A28541AFF26DD005C5A3F /* AFURLResponseSerialization.h */,
+				049A28551AFF26DD005C5A3F /* AFURLResponseSerialization.m */,
+				049A28561AFF26DD005C5A3F /* AFURLSessionManager.h */,
+				049A28571AFF26DD005C5A3F /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		049A28611AFF26FD005C5A3F /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				049A28621AFF270B005C5A3F /* AFNetworkActivityIndicatorManager.h */,
+				049A28631AFF270B005C5A3F /* AFNetworkActivityIndicatorManager.m */,
+				049A28641AFF270B005C5A3F /* README.md */,
+				049A28651AFF270B005C5A3F /* UIActivityIndicatorView+AFNetworking.h */,
+				049A28661AFF270B005C5A3F /* UIActivityIndicatorView+AFNetworking.m */,
+				049A28671AFF270B005C5A3F /* UIAlertView+AFNetworking.h */,
+				049A28681AFF270B005C5A3F /* UIAlertView+AFNetworking.m */,
+				049A28691AFF270B005C5A3F /* UIButton+AFNetworking.h */,
+				049A286A1AFF270B005C5A3F /* UIButton+AFNetworking.m */,
+				049A286B1AFF270B005C5A3F /* UIImageView+AFNetworking.h */,
+				049A286C1AFF270B005C5A3F /* UIImageView+AFNetworking.m */,
+				049A286D1AFF270B005C5A3F /* UIKit+AFNetworking.h */,
+				049A286E1AFF270B005C5A3F /* UIProgressView+AFNetworking.h */,
+				049A286F1AFF270B005C5A3F /* UIProgressView+AFNetworking.m */,
+				049A28701AFF270B005C5A3F /* UIRefreshControl+AFNetworking.h */,
+				049A28711AFF270B005C5A3F /* UIRefreshControl+AFNetworking.m */,
+				049A28721AFF270B005C5A3F /* UIWebView+AFNetworking.h */,
+				049A28731AFF270B005C5A3F /* UIWebView+AFNetworking.m */,
+			);
+			name = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		049A287D1AFF69C7005C5A3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				049A287E1AFF69F2005C5A3F /* SLCityListModel.h */,
+				049A287F1AFF69F2005C5A3F /* SLCityListModel.m */,
+			);
+			name = Model;
+			path = MyProjectFDD/BuyHouse/Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1276,6 +1441,8 @@
 				0449F9FF1AF8D79C00A5A2A2 /* publish_icon_manager.png in Resources */,
 				041814881AFA20190014A032 /* wo_zushou@2x.png in Resources */,
 				041813E31AF9BE350014A032 /* home_more_icon1@2x.png in Resources */,
+				0400AD471AFE0BAD00A8A98A /* sousuo_s@2x.png in Resources */,
+				0400AD341AFE079800A8A98A /* SLBuyHouseSearchViewController.xib in Resources */,
 				0449F9FB1AF8D79C00A5A2A2 /* publish_icon2_normal@3x.png in Resources */,
 				048FFF121AFDD212007FAA8D /* SLMeTHViewController.xib in Resources */,
 				041814631AFA20190014A032 /* wo_dingdan.png in Resources */,
@@ -1301,6 +1468,7 @@
 				0418145D1AFA20190014A032 /* wo_beijing@2x.jpg in Resources */,
 				0418146B1AFA20190014A032 /* wo_jinzhi@3x.png in Resources */,
 				043A1D061AF7995000E415BF /* daohang_sell02@3x.png in Resources */,
+				0400AD401AFE0BAD00A8A98A /* nav_sousuo@2x.png in Resources */,
 				041813FD1AF9EA480014A032 /* SLFindHousePriceViewController.xib in Resources */,
 				04052DED1AF8821600AEE27A /* nav_sousuo_s.png in Resources */,
 				04052DEE1AF8821600AEE27A /* nav_sousuo_s@2x.png in Resources */,
@@ -1338,12 +1506,14 @@
 				0403CE071AFAF1D300A66381 /* SLLoginViewController.xib in Resources */,
 				043A1CFC1AF7995000E415BF /* daohang_gengduo01@2x.png in Resources */,
 				0449FA021AF8D79C00A5A2A2 /* publish_icon_managers.png in Resources */,
+				0400AD431AFE0BAD00A8A98A /* nav_sousuo_s@2x.png in Resources */,
 				0449F9F71AF8D79C00A5A2A2 /* publish_icon2_disable@2x.png in Resources */,
 				0449F9F41AF8D79C00A5A2A2 /* publish_icon1_normal@2x.png in Resources */,
 				043A1D041AF7995000E415BF /* daohang_sell02.png in Resources */,
 				043A1D0C1AF7995000E415BF /* daohang_wo02@3x.png in Resources */,
 				043A1C9C1AF78E7500E415BF /* Images.xcassets in Resources */,
 				041813C71AF99C6F0014A032 /* SLSettingViewController.xib in Resources */,
+				0400AD441AFE0BAD00A8A98A /* nav_sousuo_s@3x.png in Resources */,
 				0418146A1AFA20190014A032 /* wo_jinzhi@2x.png in Resources */,
 				0449F9FC1AF8D79C00A5A2A2 /* publish_icon_camera.png in Resources */,
 				0449F9FE1AF8D79C00A5A2A2 /* publish_icon_camera@3x.png in Resources */,
@@ -1356,6 +1526,7 @@
 				04052DDF1AF8821600AEE27A /* nav_ditu@2x.png in Resources */,
 				0418147B1AFA20190014A032 /* wo_shezhi@2x.png in Resources */,
 				04052DDC1AF8821600AEE27A /* nav_caidan@2x.png in Resources */,
+				0400AD451AFE0BAD00A8A98A /* sousuo012@2x.png in Resources */,
 				0418145F1AFA20190014A032 /* wo_bianji@2x.png in Resources */,
 				043A1D011AF7995000E415BF /* daohang_sell01.png in Resources */,
 				043A1D031AF7995000E415BF /* daohang_sell01@3x.png in Resources */,
@@ -1374,6 +1545,8 @@
 				0449FA001AF8D79C00A5A2A2 /* publish_icon_manager@2x.png in Resources */,
 				04052DE31AF8821600AEE27A /* nav_fanhui@3x.png in Resources */,
 				041814111AF9EC9E0014A032 /* anniuL2@2x.png in Resources */,
+				0400AD3F1AFE0BAD00A8A98A /* nav_sousuo.png in Resources */,
+				0400AD411AFE0BAD00A8A98A /* nav_sousuo@3x.png in Resources */,
 				041814621AFA20190014A032 /* wo_dianhua@3x.png in Resources */,
 				041813DF1AF9BE350014A032 /* home_more_button1.png in Resources */,
 				041814611AFA20190014A032 /* wo_dianhua@2x.png in Resources */,
@@ -1390,6 +1563,7 @@
 				04052DE01AF8821600AEE27A /* nav_ditu@3x.png in Resources */,
 				041078651AFD9DB900E56E30 /* shouye_tianjia1@2x.png in Resources */,
 				043A1CFA1AF7995000E415BF /* daohang_buy02@3x.png in Resources */,
+				0400AD421AFE0BAD00A8A98A /* nav_sousuo_s.png in Resources */,
 				04317CA41AFCD366009D000A /* camera_press@2x.png in Resources */,
 				043A1CF71AF7995000E415BF /* daohang_buy01@3x.png in Resources */,
 				041813E91AF9BE350014A032 /* home_more_icon3@2x.png in Resources */,
@@ -1435,6 +1609,7 @@
 				0400AD171AFDD32100A8A98A /* SLMeDDHViewController.xib in Resources */,
 				041814821AFA20190014A032 /* wo_women@2x.png in Resources */,
 				0449F9F21AF8D79C00A5A2A2 /* publish_delete_normal@3x.png in Resources */,
+				0400AD461AFE0BAD00A8A98A /* sousuo01@2x.png in Resources */,
 				0449FA031AF8D79C00A5A2A2 /* publish_icon_managers@2x.png in Resources */,
 				0449FA0A1AF8D79C00A5A2A2 /* publish_more_normal@3x.png in Resources */,
 				04052DDD1AF8821600AEE27A /* nav_caidan@3x.png in Resources */,
@@ -1459,40 +1634,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049A28601AFF26DD005C5A3F /* AFURLSessionManager.m in Sources */,
 				0449F9D01AF8C8A200A5A2A2 /* SLCityListTableViewController.m in Sources */,
 				0400AD241AFDD3FA00A8A98A /* SLMeDDViewController.m in Sources */,
+				049A28771AFF270B005C5A3F /* UIAlertView+AFNetworking.m in Sources */,
+				049A287B1AFF270B005C5A3F /* UIRefreshControl+AFNetworking.m in Sources */,
+				049A287A1AFF270B005C5A3F /* UIProgressView+AFNetworking.m in Sources */,
 				04317C921AFCB823009D000A /* SLNextButtonClickViewController.m in Sources */,
 				041813F11AF9C2300014A032 /* SLSettingCellModel.m in Sources */,
+				049A285D1AFF26DD005C5A3F /* AFURLConnectionOperation.m in Sources */,
+				049A28761AFF270B005C5A3F /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				048FFEFB1AFDBD60007FAA8D /* SLMePBGDJJRViewController.m in Sources */,
 				041814261AF9FF0A0014A032 /* SLHallTableViewController.m in Sources */,
+				049A28741AFF270B005C5A3F /* AFNetworkActivityIndicatorManager.m in Sources */,
 				048FFF111AFDD212007FAA8D /* SLMeTHViewController.m in Sources */,
 				041814061AF9EAA00014A032 /* SLValuationViewController.m in Sources */,
 				043A1CC51AF794FE00E415BF /* SLAppSupport.m in Sources */,
 				048FFED71AFDB940007FAA8D /* SLMeSettingViewController.m in Sources */,
 				04317C981AFCBB02009D000A /* SLPreViewController.m in Sources */,
+				049A285E1AFF26DD005C5A3F /* AFURLRequestSerialization.m in Sources */,
 				04052DBE1AF8810700AEE27A /* SLUIFactory.m in Sources */,
 				041813CD1AF9BC920014A032 /* SLSettingTableViewCell.m in Sources */,
 				048FFED91AFDB940007FAA8D /* SLMeTBHeader.m in Sources */,
+				049A28591AFF26DD005C5A3F /* AFHTTPRequestOperationManager.m in Sources */,
 				048FFEF61AFDBD4A007FAA8D /* SLMeZSJJRGLViewController.m in Sources */,
+				049A285F1AFF26DD005C5A3F /* AFURLResponseSerialization.m in Sources */,
+				049A28801AFF69F2005C5A3F /* SLCityListModel.m in Sources */,
 				0418141D1AF9FB0B0014A032 /* SLVillageViewController.m in Sources */,
 				0403CE061AFAF1D300A66381 /* SLLoginViewController.m in Sources */,
 				041814291AF9FF9D0014A032 /* SLGuardTableViewController.m in Sources */,
+				049A287C1AFF270B005C5A3F /* UIWebView+AFNetworking.m in Sources */,
 				041814231AF9FB890014A032 /* SLOrientationTableViewController.m in Sources */,
 				0400AD1A1AFDD32100A8A98A /* SLMeQBViewController.m in Sources */,
+				049A285C1AFF26DD005C5A3F /* AFSecurityPolicy.m in Sources */,
 				0400AD1F1AFDD3E500A8A98A /* SLMeYYViewController.m in Sources */,
+				049A285B1AFF26DD005C5A3F /* AFNetworkReachabilityManager.m in Sources */,
 				041814011AF9EA860014A032 /* SLFindManageViewController.m in Sources */,
 				043A1D121AF79EA900E415BF /* SLTabBarViewController.m in Sources */,
 				049939441AFB8D7900015AE9 /* SLStartSellVillageNameView.m in Sources */,
 				041813F71AF9E4470014A032 /* SLStartSellHouseViewController.m in Sources */,
 				0400AD291AFDD40900A8A98A /* SLMePJViewController.m in Sources */,
 				0400AD181AFDD32100A8A98A /* SLMeFYSCViewController.m in Sources */,
+				049A28581AFF26DD005C5A3F /* AFHTTPRequestOperation.m in Sources */,
+				049A285A1AFF26DD005C5A3F /* AFHTTPSessionManager.m in Sources */,
+				049A28791AFF270B005C5A3F /* UIImageView+AFNetworking.m in Sources */,
 				041813FC1AF9EA480014A032 /* SLFindHousePriceViewController.m in Sources */,
+				049A28781AFF270B005C5A3F /* UIButton+AFNetworking.m in Sources */,
 				043A1CCE1AF7970400E415BF /* SLBuyHouseViewController.m in Sources */,
 				043A1C941AF78E7500E415BF /* MyProjectFDD.xcdatamodeld in Sources */,
 				0400AD2E1AFDD87200A8A98A /* SLMePJHelpViewController.m in Sources */,
 				043A1C911AF78E7500E415BF /* AppDelegate.m in Sources */,
+				049A28751AFF270B005C5A3F /* README.md in Sources */,
 				043A1D161AF7A1DF00E415BF /* SLTabBarItemButton.m in Sources */,
 				0410786D1AFDB23A00E56E30 /* SLNearbyShopViewController.m in Sources */,
+				0400AD331AFE079800A8A98A /* SLBuyHouseSearchViewController.m in Sources */,
 				043A1CC91AF796EB00E415BF /* SLSellHouseViewController.m in Sources */,
 				041814201AF9FB670014A032 /* SLTypeTableViewController.m in Sources */,
 				043A1D0F1AF79B4F00E415BF /* SLNavigationController.m in Sources */,

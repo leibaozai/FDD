@@ -4,9 +4,8 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SLStartSellVillageNameView">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SLBuyHouseSearchViewController">
             <connections>
-                <outlet property="searchDisplayController" destination="zwh-NZ-xfv" id="d0P-Y5-hgq"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,15 +14,6 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <point key="canvasLocation" x="154" y="149"/>
         </view>
-        <searchDisplayController id="zwh-NZ-xfv">
-            <connections>
-                <outlet property="delegate" destination="-1" id="ZFr-Pe-sFe"/>
-                <outlet property="searchContentsController" destination="-1" id="dGP-kO-tkX"/>
-                <outlet property="searchResultsDataSource" destination="-1" id="Yb3-Pa-bFf"/>
-                <outlet property="searchResultsDelegate" destination="-1" id="1Nc-wZ-KFy"/>
-            </connections>
-        </searchDisplayController>
     </objects>
 </document>

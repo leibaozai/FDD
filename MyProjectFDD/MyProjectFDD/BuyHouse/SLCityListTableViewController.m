@@ -8,7 +8,7 @@
 
 #import "SLCityListTableViewController.h"
 #import "SLUIFactory.h"
-
+#import "AFNetworking.h"
 
 @interface SLCityListTableViewController ()
 {
@@ -27,7 +27,39 @@
 //    UIBarButtonItem *spaceBBI = [SLUIFactory createSpaceBBIWithWidth:-15];
 //    self.navigationItem.leftBarButtonItems = @[spaceBBI,blackBBI];
     self.navigationItem.leftBarButtonItems = [SLUIFactory createBackBBIArrayWithTarget:self action:@selector(backBBIClicked:)];
+    
+    
+    //请求数据
+    [self requestDataFromNetWork];
+    
+    
 }
+
+#pragma mark -请求数据(城市列表)
+-(void)requestDataFromNetWork
+{
+    NSString *urlStr = @"http://app.sh.fangdd.com/v3.0.0/combine/region/opened_citys_with_firstword";
+    
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    
+    [manager.requestSerializer.mutableHTTPRequestHeaders setValue:@"100020" forKey:@"platformVersion"];
+    [manager.requestSerializer.mutableHTTPRequestHeaders setValue:@"1337" forKey:@"cityId"];
+    [manager.requestSerializer.mutableHTTPRequestHeaders setValue:@"6" forKey:@"platform"];
+    [manager.requestSerializer.mutableHTTPRequestHeaders setValue:@"50eeefe513b19f719340e9f3b2404412" forKey:@"data_token"];
+    [manager.requestSerializer.mutableHTTPRequestHeaders setValue:@"1" forKey:@"businessType"];
+    
+    
+    [manager POST:urlStr parameters:@{@"data":@"D2B35E702203172CDD8CB562DD0A0B0719A2A982A3E4AC86C0810D23FBD0B99E"} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        NSString *str = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
+        NSLog(@"success:%@",str);
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"failure:%@",error);
+    }];
+}
+
 
 #pragma mark - Event Handlers
 -(void)backBBIClicked:(id)sender
